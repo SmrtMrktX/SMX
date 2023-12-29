@@ -6,10 +6,10 @@
     import { Footer, FooterCopyright, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
   </script>
   
-  <Navbar let:hidden let:toggle rounded color="form" class="fixed top-0  backdrop-blur-sm bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent">
+  <Navbar let:hidden let:toggle rounded color="form" class="fixed top-0  backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent">
     <NavBrand href="/">
       <img src={smxlg} class="mr-3 h-9 sm:h-11" alt="Logo"/>
-      <span class="self-center whitespace-nowrap text-2xl sm:text-3xl font-bold">SMRT MRKT X</span>
+      <span class="self-center whitespace-nowrap text-2xl sm:text-3xl font-bold ">SMRT MRKT X</span>
     </NavBrand>
     <NavHamburger on:click={toggle}/>
     <NavUl {hidden} >
@@ -20,6 +20,7 @@
       <NavLi href="/contact">Contact</NavLi>
     </NavUl>
   </Navbar>
+  
   
   <div class="fixed top-16 right-0 flex justify-center m-2">
     <DarkMode class="text-black dark:text-white" />
@@ -33,14 +34,17 @@
   </main>
   
   
-  <Footer class="dark:bg-black; fixed bottom-0">
-    <FooterCopyright href="https://smx.tn" by="SMX" year={2023} aClass="text-black font-bold dark:text-white" />
+  <Footer>
+    
     <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
       <FooterLink href="/">About</FooterLink>
       <FooterLink href="/">Privacy Policy</FooterLink>
       <FooterLink href="/">Licensing</FooterLink>
       <FooterLink href="/">Contact</FooterLink>
     </FooterLinkGroup>
+
+    <FooterCopyright href="https://smx.tn" by="SMX" year={2023} aClass="text-black font-bold dark:text-white"/>
+
   </Footer>
   
   <style>
