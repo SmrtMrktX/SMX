@@ -16,7 +16,7 @@
  
 <Blockquote alignment="center" size="xl">
   
-  <span class="bg-primary- dark:bg-none dark:text-primary-customYellow ">"SMX Is Just Awesome Opensource.
+  <span class="bg-primary-customYellow dark:bg-primary-customBlack dark:text-primary-customYellow ">"SMX Is Just Awesome Opensource.
     <br>Best Of Smart Tips Hint Source..."</span>
 </Blockquote>
 </div>
