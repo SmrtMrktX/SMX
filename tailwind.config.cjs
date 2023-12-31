@@ -1,6 +1,6 @@
 const config = {
   content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
-
+  
   plugins: [require('flowbite/plugin')],
 
   darkMode: 'class',
@@ -22,7 +22,9 @@ const config = {
           900: '#A5371B',
           "customYellow": "#fee715",
           "customBlack": "#101820"
-        }
+        },
+        customColorD: '#141610',
+        customColorW: '#e2e4dd',
         
       }
     }
