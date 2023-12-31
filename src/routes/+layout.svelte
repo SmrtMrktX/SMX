@@ -9,27 +9,27 @@
   <Navbar let:hidden let:toggle rounded color="form" class="fixed top-0  backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent">
     <NavBrand href="/">
       <img src={smxlg} class="mr-3 h-9 sm:h-11" alt="Logo"/>
-      <span class="self-center whitespace-nowrap text-2xl sm:text-3xl font-bold ">SMRT MRKT X</span>
+      <span class="self-center whitespace-nowrap font-bold italic text-2xl sm:text-3xl">SMRT MRKT <span class="text-lime-600 dark:text-lime-300 font-extrabold">X</span></span>
     </NavBrand>
     <NavHamburger on:click={toggle}/>
-    <NavUl {hidden} >
-      <NavLi href="/" active={false}>Home</NavLi>
-      <NavLi href="/about">About</NavLi>
-      <NavLi href="/services">Services</NavLi>
-      <NavLi href="/pricing">Pricing</NavLi>
-      <NavLi href="/contact">Contact</NavLi>
+    <NavUl {hidden} class="font-semibold" >
+      <NavLi href="/" active={false} class="md:text-lg">Home</NavLi>
+      <NavLi href="/about" class="md:text-lg">About</NavLi>
+      <NavLi href="/services" class="md:text-lg">Services</NavLi>
+      <NavLi href="/pricing" class="md:text-lg">Pricing</NavLi>
+      <NavLi href="/contact" class="md:text-lg">Contact</NavLi>
     </NavUl>
   </Navbar>
   
   
-  <div class="fixed top-16 right-0 flex justify-center m-2">
+  <div class="fixed top-20 right-0 flex justify-center m-2">
     <DarkMode class="text-black dark:text-white" />
   </div>
   
   <div class="mt-16"></div>
   
   
-  <main class="font-mono my-1 p-2 bg-customColorW text-customColorD dark:bg-customColorD dark:text-customColorW">
+  <main class="my-1 p-2 border-y-2 border-black md:mt-20 md:text-lg md:p-10 md:text-center">
     <slot />
   </main>
   
