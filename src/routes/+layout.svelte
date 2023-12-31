@@ -9,9 +9,9 @@
   <Navbar let:hidden let:toggle rounded color="form" class="fixed top-0  backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent">
     <NavBrand href="/">
       <img src={smxlg} class="mr-3 h-9 sm:h-11" alt="Logo"/>
-      <span class="self-center whitespace-nowrap font-bold italic text-2xl sm:text-3xl">SMRT MRKT <span class="text-lime-600 dark:text-lime-300 font-extrabold">X</span></span>
+      <span class="self-center whitespace-nowrap font-bold italic text-2xl sm:text-3xl">SMRT MRKT <span style="color:lime;">X</span></span>
     </NavBrand>
-    <NavHamburger on:click={toggle}/>
+    <NavHamburger on:click={toggle} class=""/>
     <NavUl {hidden} class="font-semibold" >
       <NavLi href="/" active={false} class="md:text-lg">Home</NavLi>
       <NavLi href="/about" class="md:text-lg">About</NavLi>
@@ -22,14 +22,14 @@
   </Navbar>
   
   
-  <div class="fixed top-20 right-0 flex justify-center m-2">
+  <div class="fixed top-16 md:top-20 right-0 flex justify-center m-2">
     <DarkMode class="text-black dark:text-white" />
   </div>
   
   <div class="mt-16"></div>
   
   
-  <main class="my-1 p-2 border-y-2 border-black md:mt-20 md:text-lg md:p-10 md:text-center">
+  <main class="my-1 p-2 border-y-4 border-black md:mt-20 md:text-lg md:p-10 md:text-center">
     <slot />
   </main>
   
