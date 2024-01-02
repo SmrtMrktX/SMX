@@ -17,7 +17,7 @@
       <NavLi href="/about" class="md:text-lg">About</NavLi>
       <NavLi href="/services" class="md:text-lg">Services</NavLi>
       <NavLi href="/pricing" class="md:text-lg">Pricing</NavLi>
-      <NavLi href="/contact" class="md:text-lg">Contact</NavLi>
+      <NavLi href="/bonus" class="md:text-lg font-bold text-primary-customLime dark:text-primary-customLime">Bonus</NavLi>
     </NavUl>
   </Navbar>
   
