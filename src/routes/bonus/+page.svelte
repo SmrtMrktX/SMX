@@ -2,7 +2,7 @@
 import { Breadcrumb, BreadcrumbItem, AccordionItem, Accordion, GradientButton } from 'flowbite-svelte';
 </script>
 
-<Breadcrumb aria-label="Default breadcrumb example">
+<Breadcrumb aria-label="Default breadcrumb example" class="my-4">
     <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
     <BreadcrumbItem>Bonus</BreadcrumbItem>
 </Breadcrumb>
