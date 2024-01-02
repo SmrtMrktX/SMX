@@ -4,6 +4,12 @@
     import { DarkMode } from 'flowbite-svelte';
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
     import { Footer, FooterCopyright, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
+
+    // Check screen size
+    function checkScreenSize() {
+      return window.innerWidth <= 768; // Adjust the value as needed
+    }
+
   </script>
   
   <Navbar let:hidden let:toggle rounded color="form" class="fixed top-0  backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent">
@@ -13,11 +19,11 @@
     </NavBrand>
     <NavHamburger on:click={toggle} class=""/>
     <NavUl {hidden} class="font-semibold" >
-      <NavLi href="/" active={false} class="md:text-lg">Home</NavLi>
-      <NavLi href="/about" class="md:text-lg">About</NavLi>
-      <NavLi href="/services" class="md:text-lg">Services</NavLi>
-      <NavLi href="/pricing" class="md:text-lg">Pricing</NavLi>
-      <NavLi href="/bonus" class="md:text-lg font-bold text-primary-customLime dark:text-primary-customLime">Bonus</NavLi>
+      <NavLi href="/" active={false} on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Home</NavLi>
+      <NavLi href="/about" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">About</NavLi>
+      <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Services</NavLi>
+      <NavLi href="/pricing" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Pricing</NavLi>
+      <NavLi href="/bonus" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg font-bold text-primary-customLime dark:text-primary-customLime">Bonus</NavLi>
     </NavUl>
   </Navbar>
   
