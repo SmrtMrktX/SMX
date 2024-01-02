@@ -20,7 +20,7 @@
 </div>
 
 
-<div class="flex my-10 mx-5 justify-center items-center">
+<div class="flex my-5 md:my-10 mx-5 justify-center items-center">
   <h1 class="leading-10 font-medium text-2xl md:text-3xl">Welcome to our virtual home!</h1>
 </div>
 
