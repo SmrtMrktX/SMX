@@ -12,7 +12,7 @@
 
   </script>
   
-  <Navbar let:hidden let:toggle rounded color="form" class="fixed top-0  backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent">
+  <Navbar let:hidden let:toggle rounded color="form" class="z-50 fixed top-0  backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent">
     <NavBrand href="/">
       <img src={smxlg} class="mr-3 h-9 sm:h-11" alt="Logo"/>
       <span class="self-center whitespace-nowrap font-bold italic text-2xl sm:text-3xl">SMRT MRKT <span style="color:lime;">X</span></span>
@@ -20,15 +20,15 @@
     <NavHamburger on:click={toggle} class=""/>
     <NavUl {hidden} class="font-semibold" >
       <NavLi href="/" active={false} on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Home</NavLi>
-      <NavLi href="/about" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">About</NavLi>
+      <NavLi href="/products" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Products</NavLi>
       <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Services</NavLi>
-      <NavLi href="/pricing" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Pricing</NavLi>
+      <NavLi href="/digital" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Digital</NavLi>
       <NavLi href="/bonus" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg font-bold text-primary-customLime dark:text-primary-customLime">Bonus</NavLi>
     </NavUl>
   </Navbar>
   
   
-  <div class="fixed top-16 md:top-20 right-0 flex justify-center m-2">
+  <div class="z-50 fixed top-16 md:top-20 right-0 flex justify-center m-2">
     <DarkMode class="text-black dark:text-white" />
   </div>
   
@@ -43,7 +43,7 @@
   <Footer>
     
     <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
-      <FooterLink href="/">About</FooterLink>
+      <FooterLink href="/About">About</FooterLink>
       <FooterLink href="/PrivacyPolicy">Privacy Policy</FooterLink>
       <FooterLink href="/Licensing">Licensing</FooterLink>
       <FooterLink href="/">Contact</FooterLink>
