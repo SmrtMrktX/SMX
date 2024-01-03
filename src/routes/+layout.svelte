@@ -22,13 +22,13 @@
       <NavLi href="/" active={false} on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Home</NavLi>
       <NavLi href="/products" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Products</NavLi>
       <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Services</NavLi>
-      <NavLi href="/digital" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Digital</NavLi>
+      <NavLi href="/digital" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg font-bold">Digital</NavLi>
       <NavLi href="/bonus" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg font-bold text-primary-customLime dark:text-primary-customLime">Bonus</NavLi>
     </NavUl>
   </Navbar>
   
   
-  <div class="z-50 fixed top-16 md:top-20 right-0 flex justify-center m-2">
+  <div class="z-40 fixed top-16 md:top-20 right-0 flex justify-center m-2">
     <DarkMode class="text-black dark:text-white" />
   </div>
   
@@ -46,7 +46,7 @@
       <FooterLink href="/About">About</FooterLink>
       <FooterLink href="/PrivacyPolicy">Privacy Policy</FooterLink>
       <FooterLink href="/Licensing">Licensing</FooterLink>
-      <FooterLink href="/">Contact</FooterLink>
+      <FooterLink href="/Contact">Contact</FooterLink>
     </FooterLinkGroup>
 
     <FooterCopyright href="https://smx.tn" by="SMX" year={2023} aClass="text-black font-bold dark:text-white"/>
