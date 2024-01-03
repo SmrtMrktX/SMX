@@ -1,3 +1,13 @@
+<script>
+    import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+</script>
+    
+<Breadcrumb aria-label="Default breadcrumb example" class="my-4">
+    <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
+    <BreadcrumbItem>Licensing</BreadcrumbItem>
+</Breadcrumb>
+
+
 <div class="flex justify-center items-center p-2 m-auto border border-lime-400">
 <span class="font-mono">
     <h1 class="font-extrabold dark:text-primary-customYellow"> MIT License</h1> 
