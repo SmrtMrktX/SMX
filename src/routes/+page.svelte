@@ -4,24 +4,28 @@
 </script>
 
 <svelte:head>
-<title>SMRT MRKT X</title>
+<title>SMRT MRKT X ~ Simple Life</title>
 <meta name="description" content="SMX | Smart Market X - Resources - Hints - Tips - Opensource ..." />
 </svelte:head>
 
 
-<div class="flex justify-center items-center p-8 mt-8">
-<Blockquote alignment="center" size="xl">
+<div class="flex justify-center items-center py-10 mt-5">
+
+<Blockquote alignment="center" size="2xl">
   <QuoteSolid class="w-10 h-10 text-gray-400 dark:text-gray-600" />
-  <span class="font-bold tracking-wider text-purple-700 dark:text-primary-customYellow md:text-2xl leading-relaxed md:leading-loose ">
-    <span class="text-2xl md:text-3xl font-extrabold tracking-widest leading-loose">SMX "Simple Life"</span>
-    <br>Best Of Smart Tips Hint Source...
-    <br>Awesome Opensource.</span>
+  <span class="font-extrabold tracking-wider text-purple-700 dark:text-primary-customYellow md:text-3xl leading-relaxed md:leading-loose ">
+    Best Of Smart Tips Hints Sources.
+    <br>
+    <span class="font-semibold tracking-wider text-gray-400 dark:text-gray-600  leading-relaxed md:leading-loose ">
+      Awesome Opensource.
+    </span>
+  </span>
 </Blockquote>
 </div>
 
 
-<div class="flex my-5 md:my-10 mx-5 justify-center items-center">
-  <h1 class="leading-10 font-medium text-2xl md:text-3xl">Welcome to our virtual home!</h1>
+<div class="flex my-10 justify-center items-center">
+  <h1 class="leading-10 font-bold text-2xl md:text-3xl">Welcome to our virtual home!</h1>
 </div>
 
 
@@ -50,5 +54,8 @@
     <br> Your presence enriches our virtual haven, and we're excited to share this digital adventure with you.
     <br><br> Welcome, fellow seeker, to our corner of the web!</h1>
 </div>
+
+<h1 class="flex justify-center items-center text-center mt-5 text-base md:text-lg text-customColorD dark:text-customColorW italic tracking-widest leading-loose">SMX "Simple Life"</h1>
+
 
 
