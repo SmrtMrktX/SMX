@@ -9,7 +9,7 @@
 
 
 <div class="flex justify-center items-center p-2 m-auto border border-lime-400">
-<span class="font-mono">
+<span class="font-mono md:p-10 lg:p-20">
     <h1 class="font-extrabold dark:text-primary-customYellow"> MIT License</h1> 
 
 <h2>Copyright (c) 2023 SMRT MRKT X السوق الذكية</h2>
