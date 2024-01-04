@@ -2,7 +2,7 @@
 <html class="dark" lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link id="icon" rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
 	</head>
@@ -10,3 +10,20 @@
 		<div>%sveltekit.body%</div>
 	</body>
 </html>
+
+<style>
+
+	/* Bold title */
+	title {
+    font-weight: bold;
+  	}
+
+	/* Dark mode media query */
+	@media (prefers-color-scheme: dark) {
+	  /* Invert the icon in dark mode */
+	  .dark-mode #icon {
+		filter: brightness(0) invert(1);
+	  }
+	}
+
+</style>
