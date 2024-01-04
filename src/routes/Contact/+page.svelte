@@ -15,7 +15,7 @@
 
   
 
-<div class="justify-center items-center text-center text-4xl m-20">
+<div class="justify-center items-center text-center text-4xl my-20">
     <h1 class="text-6xl font-semibold text-purple-500">Social</h1>
     
     <div class="grid grid-cols-2 gap-10 md:grid-cols-4 md:gap-20 justify-center items-center text-center space-x-4 my-20">
