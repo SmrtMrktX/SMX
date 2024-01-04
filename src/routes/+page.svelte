@@ -13,13 +13,9 @@
 
 <Blockquote alignment="center" size="2xl">
   <QuoteSolid class="w-10 h-10 text-gray-400 dark:text-gray-600" />
-  <span class="font-extrabold tracking-wider text-purple-700 dark:text-primary-customYellow md:text-3xl leading-relaxed md:leading-loose ">
-    Best Of Smart Tips Hints Sources.
-    <br>
     <span class="font-semibold tracking-wider text-gray-400 dark:text-gray-600  leading-relaxed md:leading-loose ">
       Awesome Opensource.
     </span>
-  </span>
 </Blockquote>
 </div>
 
@@ -42,6 +38,13 @@
     </a>
   </Card>
 </div>
+
+<div class="justify-center items-center text-center my-10">
+  <span class="font-extrabold tracking-wider text-purple-700 dark:text-primary-customYellow text-2xl md:text-3xl leading-relaxed md:leading-loose ">
+    Best Of Smart Tips Hints Sources.
+  </span>
+</div>
+
 
 <div class="flex my-10 mx-5 justify-center items-center">
   <h1 class="leading-10 font-medium">
