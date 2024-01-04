@@ -12,8 +12,8 @@
 <div class="flex justify-center items-center p-8 mt-8">
 <Blockquote alignment="center" size="xl">
   <QuoteSolid class="w-10 h-10 text-gray-400 dark:text-gray-600" />
-  <span class="font-bold bg-primary-customYellow dark:bg-primary-customBlack dark:text-primary-customYellow md:text-2xl leading-relaxed md:leading-loose ">
-    SMX "Simple Life".
+  <span class="font-bold tracking-wider text-purple-700 dark:text-primary-customYellow md:text-2xl leading-relaxed md:leading-loose ">
+    <span class="text-2xl md:text-3xl font-extrabold tracking-widest leading-loose">SMX "Simple Life"</span>
     <br>Best Of Smart Tips Hint Source...
     <br>Awesome Opensource.</span>
 </Blockquote>
