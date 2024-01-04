@@ -20,16 +20,16 @@
   
   <Navbar let:hidden let:toggle rounded color="form" class="z-50 fixed top-0  backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent">
     <NavBrand href="/">
-      <img src={smxlg} class="mr-3 h-9 sm:h-11" alt="Logo"/>
-      <span class="self-center whitespace-nowrap text-2xl lg:text-3xl font-bold">SMRT MRKT <span style="color:lime;">X</span></span>
+      <img src={smxlg} class="mx-6 md:ml-1 md:mr-1 lg:mx-10 h-11 md:h-12 lg:h-13 dark:invert" alt="Logo"/>
+      <span class="self-center whitespace-nowrap text-2xl lg:text-3xl font-bold tracking-widest md:tracking-normal lg:tracking-widest">SMRT MRKT <span style="color:lime;">X</span></span>
     </NavBrand>
     <NavHamburger on:click={toggle} class=""/>
     <NavUl {hidden} class="font-semibold" >
-      <NavLi href="/" active={false} on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Home</NavLi>
-      <NavLi href="/products" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Products</NavLi>
-      <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Services</NavLi>
-      <NavLi href="/digital" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Digital</NavLi>
-      <NavLi href="/bonus" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg text-primary-customLime dark:text-primary-customLime">Bonus</NavLi>
+      <NavLi href="/" active={false} on:click={() => { if (checkScreenSize()) toggle(); }} class="font-medium md:text-lg">Home</NavLi>
+      <NavLi href="/products" on:click={() => { if (checkScreenSize()) toggle(); }} class="font-medium md:text-lg">Products</NavLi>
+      <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="font-medium md:text-lg">Services</NavLi>
+      <NavLi href="/digital" on:click={() => { if (checkScreenSize()) toggle(); }} class="font-medium md:text-lg">Digital</NavLi>
+      <NavLi href="/bonus" on:click={() => { if (checkScreenSize()) toggle(); }} class="font-medium md:text-lg text-primary-customLime dark:text-primary-customLime">Bonus</NavLi>
     </NavUl>
   </Navbar>
   
