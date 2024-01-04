@@ -55,7 +55,6 @@
     <br><br> Welcome, fellow seeker, to our corner of the web!</h1>
 </div>
 
-<h1 class="flex justify-center items-center text-center mt-5 text-base md:text-lg text-customColorD dark:text-customColorW italic tracking-widest leading-loose">SMX "Simple Life"</h1>
-
-
-
+<h1 class="flex justify-center items-center text-center mt-5 text-base md:text-lg text-customColorD dark:text-customColorW italic tracking-widest leading-loose">
+  SMX "Simple Life"
+</h1>
