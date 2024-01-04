@@ -1,3 +1,9 @@
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+
 <script>
     import "../app.pcss";
     import smxlg from "$lib/img/smxlg.png"
@@ -15,15 +21,15 @@
   <Navbar let:hidden let:toggle rounded color="form" class="z-50 fixed top-0  backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent">
     <NavBrand href="/">
       <img src={smxlg} class="mr-3 h-9 sm:h-11" alt="Logo"/>
-      <span class="self-center whitespace-nowrap font-bold italic text-2xl sm:text-3xl">SMRT MRKT <span style="color:lime;">X</span></span>
+      <span class="self-center whitespace-nowrap text-2xl lg:text-3xl font-bold">SMRT MRKT <span style="color:lime;">X</span></span>
     </NavBrand>
     <NavHamburger on:click={toggle} class=""/>
     <NavUl {hidden} class="font-semibold" >
       <NavLi href="/" active={false} on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Home</NavLi>
       <NavLi href="/products" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Products</NavLi>
       <NavLi href="/services" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Services</NavLi>
-      <NavLi href="/digital" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg font-bold">Digital</NavLi>
-      <NavLi href="/bonus" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg font-bold text-primary-customLime dark:text-primary-customLime">Bonus</NavLi>
+      <NavLi href="/digital" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg">Digital</NavLi>
+      <NavLi href="/bonus" on:click={() => { if (checkScreenSize()) toggle(); }} class="md:text-lg text-primary-customLime dark:text-primary-customLime">Bonus</NavLi>
     </NavUl>
   </Navbar>
   
@@ -42,7 +48,7 @@
   
   <Footer>
     
-    <FooterLinkGroup ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+    <FooterLinkGroup aClass="font-style" ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
       <FooterLink href="/About">About</FooterLink>
       <FooterLink href="/PrivacyPolicy">Privacy Policy</FooterLink>
       <FooterLink href="/Licensing">Licensing</FooterLink>
@@ -54,5 +60,5 @@
   </Footer>
   
   <style>
-  
+
   </style>
