@@ -39,12 +39,12 @@
 
 
 section{
-    font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 	justify-content:center;
 	align-content:center;
 	align-items:center;
 	text-align:center;
-    margin:auto;
+  margin:auto;
 }
 
 
@@ -55,7 +55,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  /* min-height: 50vh; */
 }
 .waviy {
   position: relative;

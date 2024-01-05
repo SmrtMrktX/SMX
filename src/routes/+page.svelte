@@ -10,16 +10,17 @@
 
 
 
-<div class="spec flex flex-col justify-center items-center text-center my-10 md:my-0">
+<div class="spec flex flex-col justify-center items-center text-center my-10">
 
   <Blockquote alignment="center" size="xl">
     <QuoteSolid class="w-8 h-8 text-gray-400 dark:text-gray-600" />
-      <span class="font-semibold tracking-wider text-gray-400 dark:text-gray-600  leading-relaxed md:leading-loose ">
-        Awesome opensource.
+      <span class="font-extrabold tracking-wider text-gray-400 dark:text-gray-600  leading-relaxed md:leading-loose ">
+        Awesome opensource
+        <a href="https://github.com/SmrtMrktX/SMX" target="_blank" class="text-customColorD dark:text-customColorW text-2xl font-bold">®</a>
       </span>
   </Blockquote>
 
-  <h1 class="font-extrabold leading-10  text-2xl md:text-3xl m-auto">Welcome to our <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize">digital</a> home!</h1>
+  <h1 class="font-extrabold leading-10  text-2xl md:text-3xl m-auto">Welcome to our <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize hover:no-underline">digital</a> home!</h1>
 
   
   <Card>
@@ -37,7 +38,7 @@
 </div>
 
 
-<div style="font-family: 'Russo One', sans-serif;" class="justify-center items-center text-center my-6 md:mt-12 lg:mt-14">
+<div style="font-family: 'Russo One', sans-serif;" class="justify-center items-center text-center my-6">
   <span class="tracking-wider text-purple-700 dark:text-primary-customYellow text-2xl md:text-3xl lg:text-4xl leading-relaxed md:leading-loose ">
     Best Of Smart Tips Hints Sources.
   </span>
@@ -47,7 +48,7 @@
 
 
 <div class="flex my-8 md:my-10 lg:my-20 mx-5 justify-center items-center text-center">
-  <h1 class="leading-10 font-medium">
+  <h1 class="leading-10 font-semibold">
     We're thrilled to have you here,
     <br>
     <br> where curiosity meets discovery and every click unveils a world of possibilities.
@@ -61,11 +62,12 @@
     <br> Join us as we traverse the digital realm together, exploring, learning, and growing.
     <br>
     <br> Your presence enriches our virtual haven, and we're excited to share this digital adventure with you.
-    <br><br> Welcome, fellow seeker, to our corner of the web!</h1>
+    <br><br><br>
+    <span class="font-bold text-lg md:text-xl lg:text-2xl">Welcome, fellow seeker, to our corner of the web!</span></h1>
 </div>
 
-<h1 class="flex justify-center items-center text-center mt-5 text-base md:text-lg text-customColorD dark:text-customColorW italic tracking-widest leading-loose">
-  SMX "Simple Life"
+<h1 style="font-family: 'Russo One', sans-serif;" class="flex justify-center items-center text-center text-primary-customLime dark:bg-black bg-white shadow-xl  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
+  SMX™ Simple Life 
 </h1>
 
 
