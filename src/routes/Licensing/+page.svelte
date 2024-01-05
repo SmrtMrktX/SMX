@@ -8,12 +8,12 @@
 </Breadcrumb>
 
 
-<div class="flex justify-center items-center  m-auto border shadow-2xl mb-5 md:border-2 p-2  border-lime-400 lg:text-xl leading-relaxed tracking-wider max-w-4xl">
+<div class="flex justify-center items-center  m-auto border shadow-2xl rounded  border-lime-400 md:border-2 p-2 lg:text-xl leading-relaxed tracking-wider max-w-4xl">
 <span class="font-mono p-2">
 <h1 class="font-extrabold text-purple-700 dark:text-primary-customYellow"> MIT License</h1>
-<br> 
+ 
 <h2 class="font-extrabold">Copyright (c) 2023 SMRT MRKT X السوق الذكية</h2>
-<br>
+
 <br>
 <h3 class="p-2 font-extrabold text-customColorD dark:text-customColorW">
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,11 +22,11 @@ in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
-<br><br>
+<br>
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 <br><br>
-<h2 class="font-semibold text-customColorD dark:text-customColorW">
+<h2 class="p-2 font-semibold text-customColorD dark:text-customColorW">
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

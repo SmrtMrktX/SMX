@@ -34,21 +34,21 @@
   </Navbar>
   
   
-  <div class="z-40 fixed top-20 md:top-20 right-0 flex justify-center m-2">
+  <div class="z-40 fixed top-20 md:top-24 right-0 md:right-2 lg:right-8 flex justify-center m-2">
     <DarkMode class="text-black dark:text-white" />
   </div>
   
-  <div class="mt-16"></div>
+  <div class="mt-16 md:mt-20"></div>
   
   
-  <main class="my-1 p-2 border-y-4 border-black md:mt-20 md:text-lg md:p-10 md:text-center">
+  <main class=" px-2 sm:px-4 md:px-8 lg:px-16 p-2 border-y-8 border-white dark:border-black  md:text-lg  ">
     <slot />
   </main>
   
   
   <Footer>
     
-    <FooterLinkGroup aClass="font-style" ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+    <FooterLinkGroup aClass="font-style" ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 ">
       <FooterLink href="/About">About</FooterLink>
       <FooterLink href="/PrivacyPolicy">Privacy Policy</FooterLink>
       <FooterLink href="/Licensing">Licensing</FooterLink>
