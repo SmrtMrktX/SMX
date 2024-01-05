@@ -34,7 +34,7 @@
   </Navbar>
   
   
-  <div class="z-40 fixed top-16 md:top-20 right-0 flex justify-center m-2">
+  <div class="z-40 fixed top-20 md:top-20 right-0 flex justify-center m-2">
     <DarkMode class="text-black dark:text-white" />
   </div>
   

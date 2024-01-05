@@ -8,13 +8,14 @@
 </Breadcrumb>
 
 
-<div class="flex justify-center items-center p-2 m-auto border shadow-2xl mb-5 md:border-2 rounded-xl border-lime-400 max-w-7xl lg:text-xl leading-relaxed tracking-wider">
-<span class="font-mono p-5 md:p-10 lg:p-20">
-<h1 class="font-extrabold text-purple-700 dark:text-primary-customYellow"> MIT License</h1> 
-<h2 class="font-bold">Copyright (c) 2023 SMRT MRKT X السوق الذكية</h2>
+<div class="flex justify-center items-center  m-auto border shadow-2xl mb-5 md:border-2 p-2  border-lime-400 lg:text-xl leading-relaxed tracking-wider max-w-4xl">
+<span class="font-mono p-2">
+<h1 class="font-extrabold text-purple-700 dark:text-primary-customYellow"> MIT License</h1>
+<br> 
+<h2 class="font-extrabold">Copyright (c) 2023 SMRT MRKT X السوق الذكية</h2>
 <br>
 <br>
-<h3>
+<h3 class="p-2 font-extrabold text-customColorD dark:text-customColorW">
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
