@@ -12,18 +12,18 @@
 
 <div class="spec flex flex-col justify-center items-center text-center my-10 md:my-0">
 
-  <Blockquote alignment="center" size="2xl">
-    <QuoteSolid class="w-10 h-10 text-gray-400 dark:text-gray-600" />
+  <Blockquote alignment="center" size="xl">
+    <QuoteSolid class="w-8 h-8 text-gray-400 dark:text-gray-600" />
       <span class="font-semibold tracking-wider text-gray-400 dark:text-gray-600  leading-relaxed md:leading-loose ">
         Awesome opensource.
       </span>
   </Blockquote>
 
-  <h1 class="leading-10 font-bold text-2xl md:text-3xl m-auto">Welcome to our virtual home!</h1>
+  <h1 class="font-extrabold leading-10  text-2xl md:text-3xl m-auto">Welcome to our <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize">digital</a> home!</h1>
 
   
   <Card>
-    <GiftBoxSolid class="w-7 h-7 mb-3 text-gray-500 dark:text-gray-400" />
+    <GiftBoxSolid class="w-7 h-7  text-gray-500 dark:text-gray-400" />
     <a href="/bonus/passiveIncome">
       <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Passive Income Bonus</h5>
     </a>
