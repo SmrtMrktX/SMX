@@ -20,7 +20,7 @@
   
   <Navbar let:hidden let:toggle rounded color="form" class="z-50 fixed top-0 pt-3 md:pt-2 backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent shadow-md dark:shadow-black">
     <NavBrand href="/">
-      <img src={smxlg} class="mr-4 ml-2 md:ml-1 md:mr-1 lg:mx-10 h-9 md:h-12 lg:h-15 dark:invert" alt="Logo"/>
+      <img src={smxlg} class="rounded-md mr-4 ml-2 md:ml-1 md:mr-1 lg:mx-10 h-9 md:h-12 lg:h-15 border-4 border-black  dark:invert" alt="SMX Logo"/>
       <span class="self-center whitespace-nowrap ml-4 md:ml-0 text-2xl lg:text-3xl font-semibold tracking-widest md:tracking-normal lg:tracking-widest">
         SMRT MRKT <span style="color:lime;">X</span></span>
     </NavBrand>

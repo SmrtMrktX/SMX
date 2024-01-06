@@ -2,10 +2,10 @@
     import { Breadcrumb, BreadcrumbItem, Card } from 'flowbite-svelte';
     import { Button } from 'flowbite-svelte';
     import { ArrowRightOutline, ShoppingCartSolid } from 'flowbite-svelte-icons';
-    import pwnslg from "$lib/img/pwnslg.png";
-    import honeygainlg from "$lib/img/honeygainlg.png";
-    import traffmonetizerlg from "$lib/img/traffmonetizerlg.png";
-    import packetstreamlg from "$lib/img/packetstreamlg.png"
+    import pwnslg from "$lib/img/bonus/pwnslg.png";
+    import honeygainlg from "$lib/img/bonus/honeygainlg.png";
+    import traffmonetizerlg from "$lib/img/bonus/traffmonetizerlg.png";
+    import packetstreamlg from "$lib/img/bonus/packetstreamlg.png"
 </script>
 
 
