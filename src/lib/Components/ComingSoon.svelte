@@ -70,12 +70,10 @@ section{
 }
 
 .waviy span {
-  
   position: relative;
   display: inline-block;
   animation: invertColor 2s linear 60, flip 1s linear 60; /* Adjust durations and iterations as needed */
   animation-delay: calc(.1s * var(--i));
-
 }
 
 /* .waviy span {

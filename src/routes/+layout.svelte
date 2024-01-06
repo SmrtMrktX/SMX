@@ -18,10 +18,11 @@
 
   </script>
   
-  <Navbar let:hidden let:toggle rounded color="form" class="z-50 fixed top-0 pt-3 md:pt-2 backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent">
+  <Navbar let:hidden let:toggle rounded color="form" class="z-50 fixed top-0 pt-3 md:pt-2 backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent shadow-md dark:shadow-black">
     <NavBrand href="/">
       <img src={smxlg} class="mr-4 ml-2 md:ml-1 md:mr-1 lg:mx-10 h-9 md:h-12 lg:h-15 dark:invert" alt="Logo"/>
-      <span class="self-center whitespace-nowrap ml-4 md:ml-0 text-2xl lg:text-3xl font-semibold tracking-widest md:tracking-normal lg:tracking-widest">SMRT MRKT <span style="color:lime;">X</span></span>
+      <span class="self-center whitespace-nowrap ml-4 md:ml-0 text-2xl lg:text-3xl font-semibold tracking-widest md:tracking-normal lg:tracking-widest">
+        SMRT MRKT <span style="color:lime;">X</span></span>
     </NavBrand>
     <NavHamburger on:click={toggle} class=""/>
     <NavUl {hidden} class="font-semibold" >
@@ -41,14 +42,14 @@
   <div class="mt-16 md:mt-20"></div>
   
   
-  <main class=" px-2 sm:px-4 md:px-8 lg:px-16 p-2 border-y-8 border-white dark:border-black  md:text-lg  ">
+  <main class="mx-1 my-1 md:mx-2 lg:mx-4 px-2 sm:px-4 md:px-8 lg:px-16 p-2  shadow-2xl dark:shadow-black  md:text-lg  ">
     <slot />
   </main>
   
   
-  <Footer>
+  <Footer class="pb-1 pl-1 md:pl-2 lg:pl-4">
     
-    <FooterLinkGroup aClass="font-style" ulClass="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 ">
+    <FooterLinkGroup aClass="font-style" ulClass="flex flex-wrap items-center mt-3 pt-2 text-sm text-gray-500 dark:text-gray-400 ">
       <FooterLink href="/About">About</FooterLink>
       <FooterLink href="/PrivacyPolicy">Privacy Policy</FooterLink>
       <FooterLink href="/Licensing">Licensing</FooterLink>
@@ -58,6 +59,7 @@
     <FooterCopyright href="https://smx.tn" by="SMX" year={2023} aClass="text-black font-bold dark:text-white"/>
 
   </Footer>
+  
   
   <style>
 
