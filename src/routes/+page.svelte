@@ -14,13 +14,13 @@
 
   <Blockquote alignment="center" size="xl">
     <QuoteSolid class="w-8 h-8 text-gray-400 dark:text-gray-600" />
-      <span class="font-extrabold tracking-wider text-gray-500 dark:text-gray-400  leading-relaxed md:leading-loose ">
+      <span style="font-family: 'Russo One', sans-serif;" class="font-medium tracking-wider text-gray-500 dark:text-gray-400  leading-relaxed md:leading-loose ">
         Awesome opensource
-        <a style="font-family: 'Russo One', sans-serif;" href="https://github.com/SmrtMrktX/SMX" target="_blank" class="text-customColorD dark:text-primary-customSmoke hover:text-black dark:hover:text-white">©</a>
+        <a style="font-family: 'Russo One', sans-serif;" href="https://github.com/SmrtMrktX/SMX" target="_blank" class="text-black dark:text-white rounded hover:font-bold ">©</a>
       </span>
   </Blockquote>
 
-  <h1 class="font-extrabold leading-10  text-2xl md:text-3xl m-auto">Welcome to our <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize hover:no-underline">digital</a> home!</h1>
+  <h1 class="font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">Welcome to our <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize hover:no-underline">digital</a> home!</h1>
 
   
   <Card>
@@ -66,7 +66,7 @@
     <span class="font-bold text-lg md:text-xl lg:text-2xl">Welcome, fellow seeker, to our corner of the web!</span></h1>
 </div>
 
-<h1 style="font-family: 'Russo One', sans-serif;" class="flex justify-center items-center text-center text-primary-customLime  dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
+<h1 style="font-family: 'Russo One', sans-serif;" class="flex justify-center items-center text-center font-extrabold text-primary-customLime  dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
   SMX™ Simple Life 
 </h1>
 
