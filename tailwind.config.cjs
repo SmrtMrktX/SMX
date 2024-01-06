@@ -22,7 +22,8 @@ const config = {
           900: '#A5371B',
           "customYellow": "#fee715",
           "customBlack": "#101820",
-          "customLime": "#32CD32"
+          "customLime": "#32CD32",
+          "customSmoke": "#F5F5F5"
         },
         customColorD: '#141610',
         customColorW: '#e2e4dd',
