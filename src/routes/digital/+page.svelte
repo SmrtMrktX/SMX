@@ -1,6 +1,6 @@
 <script>
     import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
-    import Loading from "$lib/Components/Loading.svelte";
+    import ComingSoon from "$lib/Components/ComingSoon.svelte";
 </script>
     
 <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
@@ -9,4 +9,4 @@
 </Breadcrumb>
 
 
-<Loading />
+<ComingSoon />

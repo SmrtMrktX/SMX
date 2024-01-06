@@ -23,7 +23,7 @@
     </div>
 
 </section>
-<h6 class="text-xl text-purple-700 dark:text-primary-customYellow">Coming soon.</h6>
+<!-- <h6 class="text-xl text-purple-700 dark:text-primary-customYellow">Coming soon.</h6> -->
 
 
 

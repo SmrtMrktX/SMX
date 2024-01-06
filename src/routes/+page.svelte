@@ -14,9 +14,9 @@
 
   <Blockquote alignment="center" size="xl">
     <QuoteSolid class="w-8 h-8 text-gray-400 dark:text-gray-600" />
-      <span class="font-extrabold tracking-wider text-gray-400 dark:text-gray-600  leading-relaxed md:leading-loose ">
+      <span class="font-extrabold tracking-wider text-gray-500 dark:text-gray-400  leading-relaxed md:leading-loose ">
         Awesome opensource
-        <a href="https://github.com/SmrtMrktX/SMX" target="_blank" class="text-customColorD dark:text-customColorW text-2xl font-bold">®</a>
+        <a style="font-family: 'Russo One', sans-serif;" href="https://github.com/SmrtMrktX/SMX" target="_blank" class="text-customColorD dark:text-primary-customSmoke hover:text-black dark:hover:text-white">©</a>
       </span>
   </Blockquote>
 
@@ -66,7 +66,7 @@
     <span class="font-bold text-lg md:text-xl lg:text-2xl">Welcome, fellow seeker, to our corner of the web!</span></h1>
 </div>
 
-<h1 style="font-family: 'Russo One', sans-serif;" class="flex justify-center items-center text-center text-primary-customLime dark:bg-black bg-white shadow-xl  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
+<h1 style="font-family: 'Russo One', sans-serif;" class="flex justify-center items-center text-center text-primary-customLime  dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
   SMX™ Simple Life 
 </h1>
 
