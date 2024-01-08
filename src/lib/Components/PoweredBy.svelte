@@ -23,5 +23,5 @@
     onMount(animateText);
   </script>
   
-  <h1>{animatedText}</h1>
+  <h1 style="font-family: 'Russo One', sans-serif;">{animatedText}</h1>
   
