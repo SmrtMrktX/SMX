@@ -20,26 +20,59 @@
 
 
 
-<div class="grid gap-10 md:grid-cols-2  md:gap-10 justify-center items-center m-auto px-10">
+<div class="grid gap-10 md:grid-cols-2  md:gap-10 justify-center items-center m-auto px-10 text-2xl ">
 
     <figure class="grid md:col-span-1 max-w-xl lg:max-w-2xl">
         <img class="dark:invert h-auto max-w-full rounded-lg" src={opensourcelg} alt="">
-        <figcaption class="mb-10 mt-2 font-bold text-2xl text-center ">®</figcaption>
+        <figcaption class="mb-10 mt-2 text-center "><a href="https://opensource.org/" target="_blank">®</a></figcaption>
     </figure>
 
     <figure class="grid md:col-span-1 max-w-xl">
         <img class="dark:invert h-auto max-w-full rounded-lg" src={githublg} alt="">
-        <figcaption class="mb-10 mt-2 font-bold text-2xl text-center ">®</figcaption>
+        <figcaption class="mb-10 mt-2  text-center "><a href="https://github.com/" target="_blank">®</a></figcaption>
     </figure>
 
     <figure class="grid md:col-span-1 max-w-xl">
         <img class="dark:invert h-auto max-w-full rounded-lg" src={sveltekitlg} alt="hi">
-        <figcaption class="mb-10 mt-2 font-bold text-2xl text-center ">®</figcaption>
+        <figcaption class="mb-10 mt-2 text-center "><a href="https://kit.svelte.dev/" target="_blank">®</a></figcaption>
     </figure>
 
     <figure class="grid md:col-span-1 max-w-xl">
         <img class="dark:invert h-auto max-w-full rounded-lg" src={vercellg} alt="">
-        <figcaption class="mb-10 mt-2 font-bold text-2xl text-center ">®</figcaption>
+        <figcaption class="mb-10 mt-2 text-center "><a href="https://vercel.com/" target="_blank">®</a></figcaption>
     </figure>
 
 </div>
+
+
+
+
+<style>
+    a {
+        font-family: 'Russo One', sans-serif;
+    }
+
+        @keyframes colorChange {
+            0% {
+                color: #32CD32; /* Start color */
+            }
+            50% {
+                color: purple; /* Middle color */
+
+            }
+            100% {
+                color: #32CD32; /* End color (back to the start) */
+            }
+        }
+
+        
+
+        /* Apply the animation to the text */
+
+        a:hover {
+            animation: colorChange 2s infinite;
+            font-weight:800;
+        }
+
+
+</style>
