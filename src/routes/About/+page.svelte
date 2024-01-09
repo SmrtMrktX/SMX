@@ -6,6 +6,8 @@
     import githublg from '$lib/img/poweredBy/githublg.png';
     import sveltekitlg from '$lib/img/poweredBy/sveltekitlg.png';
     import vercellg from '$lib/img/poweredBy/vercellg.png';
+    import flowbitelg from '$lib/img/poweredBy/flowbitelg.png';
+    import openailg from '$lib/img/poweredBy/openailg.png';
     
     let x =true;
     const ToOther = () => {
@@ -35,26 +37,36 @@
 
 
 
-<div class="grid gap-10 md:grid-cols-2  md:gap-10 justify-center items-center m-auto px-10 text-2xl ">
+<div class="grid gap-10 md:grid-cols-2  md:gap-10 lg:gap-20 justify-center items-center text-center m-auto px-10 lg:px-20 text-xl lg:text-2xl ">
 
-    <figure class="grid md:col-span-1 max-w-xl lg:max-w-2xl">
-        <img class="dark:invert h-auto max-w-full rounded-lg" src={opensourcelg} alt="">
+    <figure class="grid md:col-span-1 max-w-xl">
+        <img class="dark:invert h-auto max-w-full rounded-lg" src={opensourcelg} alt="Opensource Logo">
         <figcaption class="mb-10 mt-2 text-center "><a href="https://opensource.org/" target="_blank">®</a></figcaption>
     </figure>
 
     <figure class="grid md:col-span-1 max-w-xl">
-        <img class="dark:invert h-auto max-w-full rounded-lg" src={githublg} alt="">
+        <img class="dark:invert h-auto max-w-full rounded-lg" src={githublg} alt="Github Logo">
         <figcaption class="mb-10 mt-2  text-center "><a href="https://github.com/" target="_blank">®</a></figcaption>
     </figure>
 
     <figure class="grid md:col-span-1 max-w-xl">
-        <img class="dark:invert h-auto max-w-full rounded-lg" src={sveltekitlg} alt="hi">
+        <img class="dark:invert h-auto max-w-full rounded-lg" src={sveltekitlg} alt="Sveltekit LOGO">
         <figcaption class="mb-10 mt-2 text-center "><a href="https://kit.svelte.dev/" target="_blank">®</a></figcaption>
     </figure>
 
     <figure class="grid md:col-span-1 max-w-xl">
-        <img class="dark:invert h-auto max-w-full rounded-lg" src={vercellg} alt="">
+        <img class="dark:invert h-auto max-w-full rounded-lg" src={vercellg} alt="Vercel Logo">
         <figcaption class="mb-10 mt-2 text-center "><a href="https://vercel.com/" target="_blank">®</a></figcaption>
+    </figure>
+
+    <figure class="grid md:col-span-1 max-w-xl">
+        <img class="dark:invert h-auto max-w-full rounded-lg" src={flowbitelg} alt="Flowbite Logo">
+        <figcaption class="mb-10 mt-2 text-center "><a href="https://flowbite.com/" target="_blank">®</a></figcaption>
+    </figure>
+
+    <figure class="grid md:col-span-1 max-w-xl">
+        <img class="dark:invert h-auto max-w-full rounded-lg" src={openailg} alt="OpenAI Logo">
+        <figcaption class="mb-10 mt-2 text-center "><a href="https://openai.com/" target="_blank">®</a></figcaption>
     </figure>
 
 </div>
@@ -66,6 +78,9 @@
 
 
 <style>
+
+
+
     a {
         font-family: 'Russo One', sans-serif;
     }

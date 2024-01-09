@@ -10,12 +10,14 @@
     import { DarkMode } from 'flowbite-svelte';
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
     import { Footer, FooterCopyright, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
+    import SmxLoader from "$lib/Components/SmxLoader.svelte";
 
     // Check screen size
     function checkScreenSize() {
       return window.innerWidth <= 768; // Adjust the value as needed
     }
 
+    
   </script>
   
   <Navbar let:hidden let:toggle rounded color="form" class="z-50 fixed top-0 pt-3 md:pt-2 backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent shadow-md dark:shadow-black">
