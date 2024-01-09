@@ -5,7 +5,18 @@
     import pwnslg from "$lib/img/bonus/passiveIncome/pwnslg.png";
     import honeygainlg from "$lib/img/bonus/passiveIncome/honeygainlg.png";
     import traffmonetizerlg from "$lib/img/bonus/passiveIncome/traffmonetizerlg.png";
-    import packetstreamlg from "$lib/img/bonus/passiveIncome/packetstreamlg.png"
+    import packetstreamlg from "$lib/img/bonus/passiveIncome/packetstreamlg.png";
+    import SmxLoader from "$lib/Components/SmxLoader.svelte";
+
+    let x =true;
+    const ToOther = () => {
+      setTimeout(() => {
+        x = false; 
+      }, 700); 
+    };
+
+    ToOther();
+
 </script>
 
 
@@ -16,8 +27,12 @@
 </Breadcrumb>
 
 
+{#if x}
+    
+  <SmxLoader />
 
-  
+{:else}
+
   <Card padding="none" size="xl" class="grid md:grid-cols-2 m-auto ">
     <figure class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-t-lg border-b border-gray-200 md:rounded-t-none md:rounded-tl-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
       <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 dark:text-gray-400">
@@ -114,5 +129,9 @@
     </figure>
 
   </Card>
+  
+{/if}
+  
+  
 
 

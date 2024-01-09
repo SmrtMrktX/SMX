@@ -1,5 +1,16 @@
 <script>
     import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+    import SmxLoader from "$lib/Components/SmxLoader.svelte";
+
+    let x = true;
+    const ToOther = () => {
+      setTimeout(() => {
+        x = false; 
+      }, 700); 
+    };
+
+    ToOther();
+
 </script>
     
 <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
@@ -8,6 +19,11 @@
 </Breadcrumb>
 
 
+{#if x}
+    
+  <SmxLoader />
+
+{:else}
 
 <h1 class="text-center tracking-widest	text-2xl md:text-3xl font-extrabold m-auto"> Privacy Policy</h1> 
 
@@ -20,6 +36,12 @@
         It is Smrt Mrkt X's policy to respect your privacy regarding any information we may collect from you across our website, and other sites we own and operate.
     </h3>
 </div>
+  
+{/if}
+
+
+
+
 
 
 

@@ -5,6 +5,17 @@
 
 <script>
     import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+
+    import SmxLoader from "$lib/Components/SmxLoader.svelte";
+
+    let x =true;
+    const ToOther = () => {
+      setTimeout(() => {
+        x = false; 
+      }, 700); 
+    };
+
+    ToOther();
 </script>
     
 <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
@@ -13,7 +24,12 @@
 </Breadcrumb>
 
 
-  
+
+{#if x}
+    
+  <SmxLoader />
+
+{:else}
 
 <div style="font-family: 'Russo One', sans-serif;" class=" justify-center items-center text-center text-4xl my-10">
     <h1 class="text-6xl text-purple-500">Social</h1>
@@ -39,6 +55,12 @@
         <!-- Other social links -->
     </div>
 </div>
+  
+{/if}
+
+  
+
+
 
 
   
