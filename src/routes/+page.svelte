@@ -39,7 +39,7 @@
 
 
 <div style="font-family: 'Russo One', sans-serif;" class="justify-center items-center text-center my-6">
-  <span class="tracking-wider text-purple-700 dark:text-primary-customYellow text-2xl md:text-3xl lg:text-4xl leading-relaxed md:leading-loose ">
+  <span class="font-bold tracking-wider text-purple-700 dark:text-primary-customYellow text-2xl md:text-3xl lg:text-4xl leading-relaxed md:leading-loose ">
     Best Of Smart Tips Hints Sources.
   </span>
 </div>
@@ -48,9 +48,13 @@
 
 
 <div class="flex my-8 md:my-10 lg:my-20 mx-5 justify-center items-center text-center">
-  <h1 class="leading-10 font-semibold">
+  <h1 class="leading-10 font-thin">
+    <br><br>
+    <span class="text-xl md:text-2xl  font-extrabold">
     We're thrilled to have you here,
-    <br>
+    <span/>
+    <span class="font-medium">
+    <br><br>
     <br> where curiosity meets discovery and every click unveils a world of possibilities.
     <br>
     <br> Whether you're a seasoned explorer or a newcomer seeking inspiration, our site is designed with you in mind.
@@ -62,8 +66,12 @@
     <br> Join us as we traverse the digital realm together, exploring, learning, and growing.
     <br>
     <br> Your presence enriches our virtual haven, and we're excited to share this digital adventure with you.
+    </span>
     <br><br><br>
-    <span class="font-bold text-lg md:text-xl lg:text-2xl">Welcome, fellow seeker, to our corner of the web!</span></h1>
+    <span class="font-bold text-lg md:text-xl lg:text-2xl">
+      Welcome, fellow seeker, to our corner of the web!
+    </span>
+  </h1>
 </div>
 
 <h1 style="font-family: 'Russo One', sans-serif;" class="flex justify-center items-center text-center font-extrabold text-primary-customLime  dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
