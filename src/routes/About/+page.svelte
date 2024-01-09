@@ -1,10 +1,20 @@
 <script>
     import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+    import SmxLoader from "$lib/Components/SmxLoader.svelte";
     import PoweredBy from "$lib/Components/PoweredBy.svelte";
     import opensourcelg from '$lib/img/poweredBy/opensourcelg.png';
     import githublg from '$lib/img/poweredBy/githublg.png';
     import sveltekitlg from '$lib/img/poweredBy/sveltekitlg.png';
     import vercellg from '$lib/img/poweredBy/vercellg.png';
+    
+    let x =true;
+    const ToOther = () => {
+      setTimeout(() => {
+        x = false; 
+      }, 700); 
+    };
+    ToOther();
+
 </script>
     
 <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
@@ -12,10 +22,15 @@
     <BreadcrumbItem>About</BreadcrumbItem>
 </Breadcrumb>
 
+{#if x}
+    
+  <SmxLoader />
 
-<div class="m-10 text-3xl md:text-4xl font-bold tracking-widest text-primary-customLime justify-center items-center text-center">
+{:else}
+
+  <div class="m-10 text-3xl md:text-4xl font-bold tracking-widest text-primary-customLime justify-center items-center text-center">
     <!-- <h1 class="my-10 text-3xl md:text-4xl font-bold tracking-widest text-primary-customLime underline">POWERED BY</h1> -->
-    <PoweredBy  text="POWERED &nbsp BY" delay={250} />
+    <PoweredBy  text="POWERED BY" delay={250} />
 </div>
 
 
@@ -43,6 +58,9 @@
     </figure>
 
 </div>
+  
+{/if}
+
 
 
 

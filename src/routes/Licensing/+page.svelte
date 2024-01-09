@@ -1,5 +1,16 @@
 <script>
     import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+
+    import SmxLoader from "$lib/Components/SmxLoader.svelte";
+
+let x =true;
+const ToOther = () => {
+  setTimeout(() => {
+    x = false; 
+  }, 700); 
+};
+
+ToOther();
 </script>
     
 <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
@@ -8,9 +19,18 @@
 </Breadcrumb>
 
 
+
+
+
+{#if x}
+    
+  <SmxLoader />
+
+{:else}
+
 <div class="flex justify-center items-center m-auto border shadow-2xl rounded  border-lime-400 md:border-2 p-2 lg:text-xl leading-relaxed tracking-wider max-w-4xl">
 <span class="font-mono p-2">
-<h1 class="font-extrabold text-purple-700 dark:text-primary-customYellow"> MIT License</h1>
+<h1 style="font-family: 'Russo One', sans-serif;" class="font-bold text-purple-600 "> MIT License</h1>
  
 <h2 class="font-extrabold">Copyright (c) 2023 SMRT MRKT X السوق الذكية</h2>
 
@@ -23,9 +43,14 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 <br>
+<br>
+<span style="font-family: 'Russo One', sans-serif;" class="text-primary-customLime m">
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-<br><br>
+</span>
+<br>
+<br>
+
 <h2 class="p-2 font-semibold text-customColorD dark:text-customColorW">
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -38,3 +63,6 @@ SOFTWARE.
 </h3>
 </span>
 </div>
+  
+{/if}
+
