@@ -4,8 +4,8 @@
 </script>
 
 <svelte:head>
-<title>SMRT MRKT X ~ Simple Life</title>
-<meta name="description" content="SMX | Smart Market X - Resources - Hints - Tips - Opensource ..." />
+<title>SMX © SMRT MRKT X : Simple Life  السوق الذكية : حياة بسيطة</title>
+<meta name="description" content="SMX | Smart Market X : Simple Life | Best Of : Resources - Hints - Tips - Opensource - Passive Income Direct Income - Free WEB APP and more ... | السوق الذكية : حياة بسيطة |" />
 </svelte:head>
 
 
@@ -26,7 +26,7 @@
   <Card>
     <GiftBoxSolid class="w-7 h-7  text-gray-500 dark:text-gray-400" />
     <a href="/bonus/passiveIncome">
-      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">Passive Income Bonus</h5>
+      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white hover:font-extrabold hover:text-primary-customLime hover:animate-pulse">Passive Income Bonus</h5>
     </a>
     <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Go to this step by step guideline process on how to certify for your benefits:</p>
     <a href="/bonus" class="inline-flex items-center text-primary-customLime hover:underline">
@@ -74,7 +74,7 @@
   </h1>
 </div>
 
-<h1 style="font-family: 'Russo One', sans-serif;" class="flex justify-center items-center text-center font-extrabold text-primary-customLime  dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
+<h1 style="font-family: 'Russo One', sans-serif;color:lime;" class="flex justify-center items-center text-center font-extrabold   dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
   SMX™ Simple Life 
 </h1>
 
