@@ -10,7 +10,7 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
 </svelte:head>
 
 
-<div class="spec flex flex-col justify-center items-center text-center my-10">
+<div class="spec flex flex-col justify-center items-center text-center mt-24">
 
   <Blockquote alignment="center" size="xl">
     <QuoteSolid class="w-8 h-8 text-gray-400 dark:text-gray-600" />
@@ -20,13 +20,14 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
       </span>
   </Blockquote>
 
-  <h1 class="font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">Welcome to our <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize hover:no-underline">digital</a> home!</h1>
+  <h1 class="welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">Welcome to our <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize hover:no-underline">digital</a> home!</h1>
 
   
-  <Card>
+  <Card class="transition duration-500 ease-in-out hover:scale-105">
     <GiftBoxSolid class="w-7 h-7  text-gray-500 dark:text-gray-400" />
     <a href="/bonus/passiveIncome">
-      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white hover:font-extrabold hover:text-primary-customLime hover:animate-pulse">Passive Income Bonus</h5>
+      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-customColorD dark:text-customColorW hover:font-bold hover:text-primary-customLime">
+        Passive Income Bonus</h5>
     </a>
     <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Go to this step by step guideline process on how to certify for your benefits:</p>
     <a href="/bonus" class="inline-flex items-center text-primary-customLime hover:underline">
@@ -38,8 +39,8 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
 </div>
 
 
-<div style="font-family: 'Russo One', sans-serif;" class="justify-center items-center text-center my-6">
-  <span class="font-bold tracking-wider text-purple-700 dark:text-primary-customYellow text-2xl md:text-3xl lg:text-4xl leading-relaxed md:leading-loose ">
+<div style="font-family: 'Russo One', sans-serif;" class="justify-center items-center text-center mt-28 lg:mt-40">
+  <span class="font-bold tracking-wider text-purple-700 dark:text-primary-customYellow text-2xl md:text-3xl lg:text-4xl leading-relaxed ">
     Best Of Smart Tips Hints Sources.
   </span>
 </div>
@@ -81,10 +82,33 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
 
 
 <style>
+
+
+
   .spec {
     height: 70vh;
     max-height: 777px;
 
+  }
+
+
+  @media screen and (max-width: 320px) {
+      /* Your CSS styles here */
+      .spec {
+        margin-top:50px;
+        height: 90vh;
+      }
+      .welcome {
+        font-size:1.4rem;
+      }
+  }
+
+  @media screen and (max-height: 375px) {
+      /* Your CSS styles here */
+      .spec {
+        margin-top:40px;
+        height: 120vh;
+      }
   }
 
   /* @media (orientation: landscape) {
