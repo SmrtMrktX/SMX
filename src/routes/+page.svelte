@@ -5,9 +5,9 @@
 
 <svelte:head>
 <title>SMX © SMRT MRKT X : Simple Life  السوق الذكية : حياة بسيطة</title>
-<meta name="description" content="SMX | Smart Market X : Simple Life | Best Of : Resources - Hints - Tips - Opensource - Passive Income Direct Income - Free WEB APP and more ... | السوق الذكية : حياة بسيطة |" />
+<meta name="description" content="Discover the secrets to earning passive and direct income through cryptocurrency at SMX © SMRT MRKT X | السوق الذكية
+Access expert tips, strategies, and real-time insights on lucrative crypto opportunities. Join our community to stay ahead in the dynamic world of digital assets and unlock your path to financial freedom."/>
 </svelte:head>
-
 
 
 <div class="spec flex flex-col justify-center items-center text-center my-10">
