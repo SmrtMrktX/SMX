@@ -3,6 +3,9 @@
     import ComingSoon from "$lib/Components/ComingSoon.svelte";
     import SmxLoader from "$lib/Components/SmxLoader.svelte";
 
+    import webappslg from "$lib/img/products/webapps.webp";
+
+
     let x =true;
     const ToOther = () => {
       setTimeout(() => {
@@ -28,6 +31,9 @@
 <SmxLoader />
 
 {:else}
+
+<img src={webappslg} class="rounded m-auto w-full max-w-3xl shadow-sm shadow-primary-customLime" alt="web apps products"/>
+
   
 <ComingSoon />
   

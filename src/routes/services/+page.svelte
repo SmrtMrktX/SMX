@@ -3,6 +3,8 @@
     import ComingSoon from "$lib/Components/ComingSoon.svelte";
 
     import SmxLoader from "$lib/Components/SmxLoader.svelte";
+    import penetrationtestingslg from "$lib/img/services/penetrationtesting.webp";
+
 
     let x =true;
     const ToOther = () => {
@@ -24,6 +26,8 @@
   <SmxLoader />
 
 {:else}
+
+  <img src={penetrationtestingslg} class="rounded m-auto w-full max-w-3xl shadow-sm shadow-primary-customLime" alt="web apps products"/>
 
   <ComingSoon />
   
