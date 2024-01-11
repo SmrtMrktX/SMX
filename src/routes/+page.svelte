@@ -33,7 +33,7 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
   <Card class="hover:scale-105">
     <GiftBoxSolid class="w-7 h-7  text-gray-500 dark:text-gray-400" />
     <a href="/bonus/passiveIncome">
-      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-customColorD dark:text-customColorW hover:font-bold hover:text-primary-customLime">
+      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-primary-customBlack dark:text-primary-customSmoke hover:font-bold hover:text-primary-customLime">
         Passive Income Bonus</h5>
     </a>
     <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">Go to this step by step guideline process on how to certify for your benefits:</p>
@@ -58,7 +58,7 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
 <div style="font-weight:700;" class="flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight">
   
    
-    <h1 class=" text-xl md:text-2xl lg:text-3xl  font-extrabold">
+    <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl  font-extrabold">
     We're thrilled to have you here,
     </h1>
 
@@ -73,25 +73,30 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
     </div>
 
 
-    <div  class="font-mono my-32 px-2 mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
+    <div  class="font-mono my-32 px-0 mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
       
-      <h3 class="my-20"><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3><br>
+      <h3 class=""><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3><br>
     
-      <h3 class="mb-20">#Your presence enriches our virtual haven, and we're excited to share this digital adventure with you.</h3>
+      <h3 class=""><span class="text-purple-600">#Your presence</span> enriches our virtual haven, and we're excited to share this digital adventure with you.</h3>
     
     </div>
 
 
-    <h1 class="my-20 font-extrabold text-lg md:text-xl lg:text-2xl hover:underline">
+    <h1 class="px-2 my-20 font-extrabold text-lg md:text-xl lg:text-2xl hover:underline">
       Welcome, fellow seeker, to our corner of the web!
     </h1>
 
 </div>
 
 <h1 style="font-family: 'Russo One', sans-serif;color:lime;" class="flex justify-center items-center text-center font-extrabold   dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
-  SMX™ Simple Life 
+  SMX™ Simple Life
 </h1>
-
+<span style="" class="p-4 justify-center items-center text-center m-auto text-xs  tracking-widest font-extrabold">
+  Version 
+  <span class=" text-purple-600">
+    0.0.2
+  </span>
+</span> 
 
 
 <style>
