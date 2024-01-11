@@ -23,7 +23,7 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
   <h1 class="welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">Welcome to our <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize hover:no-underline">digital</a> home!</h1>
 
   
-  <Card class="transition duration-500 ease-in-out hover:scale-105">
+  <Card class="hover:scale-105">
     <GiftBoxSolid class="w-7 h-7  text-gray-500 dark:text-gray-400" />
     <a href="/bonus/passiveIncome">
       <h5 class="mb-2 text-2xl font-semibold tracking-tight text-customColorD dark:text-customColorW hover:font-bold hover:text-primary-customLime">
