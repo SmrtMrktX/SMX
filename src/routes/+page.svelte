@@ -1,6 +1,8 @@
 <script>
     import { Blockquote, Card, } from "flowbite-svelte";
     import { QuoteSolid, GiftBoxSolid, ArrowUpRightFromSquareOutline } from 'flowbite-svelte-icons';
+
+    import BestOf from "$lib/Components/BestOf.svelte";
 </script>
 
 <svelte:head>
@@ -20,7 +22,12 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
       </span>
   </Blockquote>
 
-  <h1 class="welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">Welcome to our <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize hover:no-underline">digital</a> home!</h1>
+  <h1 class="welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
+    Welcome to our 
+    <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize hover:no-underline hover:text-blue-600">
+      digital</a>
+       home!
+  </h1>
 
   
   <Card class="hover:scale-105">
@@ -39,40 +46,46 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
 </div>
 
 
-<div style="font-family: 'Russo One', sans-serif;" class="justify-center items-center text-center mt-28 lg:mt-40">
-  <span class="font-bold tracking-wider text-purple-700 dark:text-primary-customYellow text-2xl md:text-3xl lg:text-4xl leading-relaxed ">
-    Best Of Smart Tips Hints Sources.
-  </span>
-</div>
+
+<BestOf />
 
 
 
 
-<div class="flex my-8 md:my-10 lg:my-20 mx-5 justify-center items-center text-center">
-  <h1 class="leading-10 font-thin">
-    <br><br>
-    <span class="text-xl md:text-2xl  font-extrabold">
+
+
+
+<div style="font-weight:700;" class="flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight">
+  
+   
+    <h1 class=" text-xl md:text-2xl lg:text-3xl  font-extrabold">
     We're thrilled to have you here,
-    <span/>
-    <span class="font-medium">
-    <br><br>
-    <br> where curiosity meets discovery and every click unveils a world of possibilities.
-    <br>
-    <br> Whether you're a seasoned explorer or a newcomer seeking inspiration, our site is designed with you in mind.
-    <br>
-    <br> Dive into our collection of articles, resources, and insights crafted to ignite your imagination and satisfy your thirst for knowledge.
-    <br>
-    <br> From informative guides to thought-provoking content, embark on a journey where learning knows no bounds.
-    <br>
-    <br> Join us as we traverse the digital realm together, exploring, learning, and growing.
-    <br>
-    <br> Your presence enriches our virtual haven, and we're excited to share this digital adventure with you.
-    </span>
-    <br><br><br>
-    <span class="font-bold text-lg md:text-xl lg:text-2xl">
+    </h1>
+
+    <div  class="my-20 text-lg md:text-xl lg:text-2xl max-w-4xl justify-center items-center mx-auto">
+      <h2 class="my-20">where curiosity meets discovery and every click unveils a world of possibilities.</h2>
+
+      <h2 class="my-20"> Whether you're a seasoned explorer or a newcomer seeking inspiration, our site is designed with you in mind.</h2>
+
+      <h2 class="my-20"> Dive into our collection of articles, resources, and insights crafted to ignite your imagination and satisfy your thirst for knowledge.</h2>
+
+      <h2 class="my-20"> From informative guides to thought-provoking content, embark on a journey where learning knows no bounds.</h2>
+    </div>
+
+
+    <div  class="font-mono my-32 px-2 mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
+      
+      <h3 class="my-20"><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3><br>
+    
+      <h3 class="mb-20">#Your presence enriches our virtual haven, and we're excited to share this digital adventure with you.</h3>
+    
+    </div>
+
+
+    <h1 class="my-20 font-extrabold text-lg md:text-xl lg:text-2xl hover:underline">
       Welcome, fellow seeker, to our corner of the web!
-    </span>
-  </h1>
+    </h1>
+
 </div>
 
 <h1 style="font-family: 'Russo One', sans-serif;color:lime;" class="flex justify-center items-center text-center font-extrabold   dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
