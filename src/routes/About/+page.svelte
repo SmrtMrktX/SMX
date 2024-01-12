@@ -2,12 +2,13 @@
     import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
     import SmxLoader from "$lib/Components/SmxLoader.svelte";
     import PoweredBy from "$lib/Components/PoweredBy.svelte";
-    import opensourcelg from '$lib/img/poweredBy/opensourcelg.png';
-    import githublg from '$lib/img/poweredBy/githublg.png';
-    import sveltekitlg from '$lib/img/poweredBy/sveltekitlg.png';
-    import vercellg from '$lib/img/poweredBy/vercellg.png';
-    import flowbitelg from '$lib/img/poweredBy/flowbitelg.png';
-    import openailg from '$lib/img/poweredBy/openailg.png';
+
+    import opensourcelg from '$lib/img/poweredBy/opensourcelg.webp';
+    import githublg from '$lib/img/poweredBy/githublg.webp';
+    import sveltekitlg from '$lib/img/poweredBy/sveltekitlg.webp';
+    import vercellg from '$lib/img/poweredBy/vercellg.webp';
+    import flowbitelg from '$lib/img/poweredBy/flowbitelg.webp';
+    import openailg from '$lib/img/poweredBy/openailg.webp';
     
     let x =true;
     const ToOther = () => {
