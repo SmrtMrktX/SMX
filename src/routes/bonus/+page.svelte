@@ -7,7 +7,7 @@
   const ToOther = () => {
     setTimeout(() => {
       x = false; 
-    }, 1000); 
+    }, 900); 
   };
 
   ToOther();
