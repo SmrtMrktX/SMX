@@ -1,5 +1,6 @@
 <script>
-  import { Blockquote, Card, } from "flowbite-svelte";
+  import { Blockquote, Card, Badge } from "flowbite-svelte";
+
   import { QuoteSolid, GiftBoxSolid, ArrowUpRightFromSquareOutline } from 'flowbite-svelte-icons';
 
   import BestOf from "$lib/Components/BestOf.svelte";
@@ -97,17 +98,12 @@
 </h1>
 
 
-<span class="p-4 justify-center items-center text-center m-auto text-xs  tracking-widest font-extrabold">
-  Version 
-  <span class=" text-purple-600">
-    0.0.2
-  </span>
-</span> 
 
 
 
-
-
+<Badge rounded color="purple" class="justify-center items-center text-center mx-auto my-3  tracking-widest font-extrabold">
+  Version 0.0.2
+</Badge>
 
 
 
