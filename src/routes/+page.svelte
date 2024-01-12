@@ -1,15 +1,20 @@
 <script>
-    import { Blockquote, Card, } from "flowbite-svelte";
-    import { QuoteSolid, GiftBoxSolid, ArrowUpRightFromSquareOutline } from 'flowbite-svelte-icons';
+  import { Blockquote, Card, } from "flowbite-svelte";
+  import { QuoteSolid, GiftBoxSolid, ArrowUpRightFromSquareOutline } from 'flowbite-svelte-icons';
 
-    import BestOf from "$lib/Components/BestOf.svelte";
+  import BestOf from "$lib/Components/BestOf.svelte";
 </script>
 
+
+
 <svelte:head>
-<title>SMX © SMRT MRKT X : Simple Life  السوق الذكية : حياة بسيطة</title>
-<meta name="description" content="Discover the secrets to earning passive and direct income through cryptocurrency at SMX © SMRT MRKT X | السوق الذكية
-Access expert tips, strategies, and real-time insights on lucrative crypto opportunities. Join our community to stay ahead in the dynamic world of digital assets and unlock your path to financial freedom."/>
+  <title>SMX © SMRT MRKT X : Simple Life  السوق الذكية : حياة بسيطة</title>
+  <meta name="description" content="Discover the secrets to earning passive and direct income through cryptocurrency at SMX © SMRT MRKT X | السوق الذكية
+  Access expert tips, strategies, and real-time insights on lucrative crypto opportunities. Join our community to stay ahead in the dynamic world of digital assets and unlock your path to financial freedom."/>
 </svelte:head>
+
+
+
 
 
 <div class="spec flex flex-col justify-center items-center text-center mt-24">
@@ -51,47 +56,48 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
 
 
 
-
-
-
-
 <div style="font-weight:700;" class="flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight">
   
    
-    <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl  font-extrabold">
+  <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl  font-extrabold">
     We're thrilled to have you here,
-    </h1>
+  </h1>
 
-    <div  class="my-20 text-lg md:text-xl lg:text-2xl max-w-4xl justify-center items-center mx-auto">
-      <h2 class="my-20">where curiosity meets discovery and every click unveils a world of possibilities.</h2>
+  <div  class="my-20 text-lg md:text-xl lg:text-2xl max-w-4xl justify-center items-center mx-auto">
+    <h2 class="my-20">where curiosity meets discovery and every click unveils a world of possibilities.</h2>
 
-      <h2 class="my-20"> Whether you're a seasoned explorer or a newcomer seeking inspiration, our site is designed with you in mind.</h2>
+    <h2 class="my-20"> Whether you're a seasoned explorer or a newcomer seeking inspiration, our site is designed with you in mind.</h2>
 
-      <h2 class="my-20"> Dive into our collection of articles, resources, and insights crafted to ignite your imagination and satisfy your thirst for knowledge.</h2>
+    <h2 class="my-20"> Dive into our collection of articles, resources, and insights crafted to ignite your imagination and satisfy your thirst for knowledge.</h2>
 
-      <h2 class="my-20"> From informative guides to thought-provoking content, embark on a journey where learning knows no bounds.</h2>
-    </div>
+    <h2 class="my-20"> From informative guides to thought-provoking content, embark on a journey where learning knows no bounds.</h2>
+  </div>
 
 
-    <div  class="font-mono my-32 px-0 mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
+  <div  class="font-mono my-32 px-0 mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
       
-      <h3 class=""><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3><br>
+    <h3 class=""><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3><br>
+  
+    <h3 class=""><span class="text-purple-600">#Your presence</span> enriches our virtual haven, and we're excited to share this digital adventure with you.</h3>
     
-      <h3 class=""><span class="text-purple-600">#Your presence</span> enriches our virtual haven, and we're excited to share this digital adventure with you.</h3>
-    
-    </div>
+  </div>
 
 
-    <h1 class="px-2 my-20 font-extrabold text-lg md:text-xl lg:text-2xl hover:underline">
-      Welcome, fellow seeker, to our corner of the web!
-    </h1>
+  <h1 class="px-2 my-20 font-extrabold text-lg md:text-xl lg:text-2xl hover:underline">
+    Welcome, fellow seeker, to our corner of the web!
+  </h1>
 
 </div>
+
+
+
 
 <h1 style="font-family: 'Russo One', sans-serif;color:lime;" class="flex justify-center items-center text-center font-extrabold   dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
   SMX™ Simple Life
 </h1>
-<span style="" class="p-4 justify-center items-center text-center m-auto text-xs  tracking-widest font-extrabold">
+
+
+<span class="p-4 justify-center items-center text-center m-auto text-xs  tracking-widest font-extrabold">
   Version 
   <span class=" text-purple-600">
     0.0.2
@@ -99,9 +105,14 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
 </span> 
 
 
+
+
+
+
+
+
+
 <style>
-
-
 
   .spec {
     height: 70vh;
@@ -128,18 +139,6 @@ Access expert tips, strategies, and real-time insights on lucrative crypto oppor
         height: 120vh;
       }
   }
-
-  /* @media (orientation: landscape) {
-    .spec {
-      
-      
-    }
-    .spec h1 {
-    
-    }
-    
-
-  } */
 
 
 </style>

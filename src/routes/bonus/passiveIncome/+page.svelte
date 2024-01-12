@@ -1,23 +1,27 @@
 <script>
-    import { Breadcrumb, BreadcrumbItem, Card } from 'flowbite-svelte';
-    import { Button } from 'flowbite-svelte';
-    import { ArrowRightOutline, ShoppingCartSolid } from 'flowbite-svelte-icons';
-    import pwnslg from "$lib/img/bonus/passiveIncome/pwnslg.png";
-    import honeygainlg from "$lib/img/bonus/passiveIncome/honeygainlg.png";
-    import traffmonetizerlg from "$lib/img/bonus/passiveIncome/traffmonetizerlg.png";
-    import packetstreamlg from "$lib/img/bonus/passiveIncome/packetstreamlg.png";
-    import SmxLoader from "$lib/Components/SmxLoader.svelte";
+  import { Breadcrumb, BreadcrumbItem, Card } from 'flowbite-svelte';
+  import { Button } from 'flowbite-svelte';
+  import { ArrowRightOutline, ShoppingCartSolid } from 'flowbite-svelte-icons';
+  import pwnslg from "$lib/img/bonus/passiveIncome/pwnslg.png";
+  import honeygainlg from "$lib/img/bonus/passiveIncome/honeygainlg.png";
+  import traffmonetizerlg from "$lib/img/bonus/passiveIncome/traffmonetizerlg.png";
+  import packetstreamlg from "$lib/img/bonus/passiveIncome/packetstreamlg.png";
+  import SmxLoader from "$lib/Components/SmxLoader.svelte";
 
-    let x =true;
-    const ToOther = () => {
-      setTimeout(() => {
-        x = false; 
-      }, 700); 
-    };
+  let x =true;
+  const ToOther = () => {
+    setTimeout(() => {
+      x = false; 
+    }, 700); 
+  };
 
-    ToOther();
+  ToOther();
 
 </script>
+
+
+
+
 
 
 <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
@@ -25,6 +29,10 @@
     <BreadcrumbItem href="/bonus">Bonus</BreadcrumbItem>
     <BreadcrumbItem>Passive Income</BreadcrumbItem>
 </Breadcrumb>
+
+
+
+
 
 
 {#if x}
@@ -131,7 +139,4 @@
   </Card>
   
 {/if}
-  
-  
-
 
