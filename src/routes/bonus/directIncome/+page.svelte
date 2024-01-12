@@ -1,14 +1,14 @@
 <script>
-    import { Breadcrumb, BreadcrumbItem, Card } from 'flowbite-svelte';
-    import { Button } from 'flowbite-svelte';
-    import { ArrowRightOutline, ShoppingCartSolid } from 'flowbite-svelte-icons';
+  import { Breadcrumb, BreadcrumbItem, Card } from 'flowbite-svelte';
+  import { Button } from 'flowbite-svelte';
+  import { ArrowRightOutline, ShoppingCartSolid } from 'flowbite-svelte-icons';
 
-    import SmxLoader from "$lib/Components/SmxLoader.svelte";
+  import SmxLoader from "$lib/Components/SmxLoader.svelte";
 
-    import cryptowinlg from "$lib/img/bonus/directIncome/cryptowinlg.png";
-    import coinpayulg from "$lib/img/bonus/directIncome/coinpayulg.png";
-    import adbtclg from "$lib/img/bonus/directIncome/adbtclg.png";
-    import cryptoflarelg from "$lib/img/bonus/directIncome/cryptoflarelg.png"
+  import cryptowinlg from "$lib/img/bonus/directIncome/cryptowinlg.png";
+  import coinpayulg from "$lib/img/bonus/directIncome/coinpayulg.png";
+  import adbtclg from "$lib/img/bonus/directIncome/adbtclg.png";
+  import cryptoflarelg from "$lib/img/bonus/directIncome/cryptoflarelg.png"
 
 
   let x =true;
@@ -24,11 +24,20 @@
 
 
 
+
+
+
 <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
-    <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
-    <BreadcrumbItem href="/bonus">Bonus</BreadcrumbItem>
-    <BreadcrumbItem>Direct Income</BreadcrumbItem>
+  <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
+  <BreadcrumbItem href="/bonus">Bonus</BreadcrumbItem>
+  <BreadcrumbItem>Direct Income</BreadcrumbItem>
 </Breadcrumb>
+
+
+
+
+
+
 
 
 
@@ -38,7 +47,7 @@
 
 {:else}
 
-<Card padding="none" size="xl" class="grid md:grid-cols-2 m-auto ">
+  <Card padding="none" size="xl" class="grid md:grid-cols-2 m-auto ">
     <figure class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-t-lg border-b border-gray-200 md:rounded-t-none md:rounded-tl-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
       <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 dark:text-gray-400">
         <h3 class="text-xl lg:text-2xl font-bold text-gray-900 dark:text-white">
@@ -91,6 +100,9 @@
     </figure>
 
 
+
+
+
     <figure class="flex flex-col justify-center items-center p-8 text-center bg-white rounded-bl-lg border-b border-gray-200 md:border-b-0 md:border-e dark:bg-gray-800 dark:border-gray-700">
       <blockquote class="mx-auto mb-4 max-w-2xl text-gray-500 dark:text-gray-400">
 
@@ -116,6 +128,11 @@
         </div>
       </figcaption>
     </figure>
+
+
+
+
+
 
 
 
@@ -146,10 +163,4 @@
   </Card>
   
 {/if}
-
-
-
-  
-  
-
 

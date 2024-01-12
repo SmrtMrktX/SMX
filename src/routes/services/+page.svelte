@@ -1,25 +1,35 @@
 <script>
-    import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
-    import ComingSoon from "$lib/Components/ComingSoon.svelte";
 
-    import SmxLoader from "$lib/Components/SmxLoader.svelte";
-    import penetrationtestingslg from "$lib/img/services/penetrationtesting.webp";
+  import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+  import ComingSoon from "$lib/Components/ComingSoon.svelte";
+
+  import SmxLoader from "$lib/Components/SmxLoader.svelte";
+  import penetrationtestingslg from "$lib/img/services/penetrationtesting.webp";
 
 
-    let x =true;
-    const ToOther = () => {
-      setTimeout(() => {
-           x = false; 
-      }, 700); 
-    };
+  let x =true;
+  const ToOther = () => {
+    setTimeout(() => {
+      x = false; 
+    }, 700); 
+  };
 
-    ToOther();
+  ToOther();
+
 </script>
     
+
+
+
+
 <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
     <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
     <BreadcrumbItem>Services</BreadcrumbItem>
 </Breadcrumb>
+
+
+
+
 
 {#if x}
     

@@ -1,4 +1,5 @@
 <script>
+
         import smxloader from "$lib/img/smxloader.png";
 
 </script>

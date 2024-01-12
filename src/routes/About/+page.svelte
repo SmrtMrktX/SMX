@@ -29,54 +29,64 @@
 
 
 
+
+
 {#if x}
     
   <SmxLoader />
 
 {:else}
 
-<div class="m-10 text-3xl md:text-4xl font-bold tracking-widest text-primary-customLime justify-center items-center text-center">
-    <!-- <h1 class="my-10 text-3xl md:text-4xl font-bold tracking-widest text-primary-customLime underline">POWERED BY</h1> -->
-    <PoweredBy  text="POWERED BY" delay={250} />
-</div>
+
+
+    <div class="m-10 text-3xl md:text-4xl font-bold tracking-widest text-primary-customLime justify-center items-center text-center">
+        <!-- <h1 class="my-10 text-3xl md:text-4xl font-bold tracking-widest text-primary-customLime underline">POWERED BY</h1> -->
+        <PoweredBy  text="POWERED BY" delay={250} />
+    </div>
 
 
 
-<div class="grid gap-10 md:grid-cols-2  md:gap-10 lg:gap-20 justify-center items-center text-center mb-10 mx-auto px-10 lg:px-20 text-xl lg:text-2xl ">
+    <div class="grid gap-10 md:grid-cols-2  md:gap-10 lg:gap-20 justify-center items-center text-center mb-10 mx-auto px-10 lg:px-20 text-xl lg:text-2xl ">
 
-    <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
-        <img class="dark:invert h-auto max-w-full rounded-lg mb-0" src={opensourcelg} alt="Opensource Logo">
-        <figcaption class="my-0 text-center "><a href="https://opensource.org/" target="_blank">®</a></figcaption>
-    </figure>
+        <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
+            <img class="dark:invert h-auto max-w-full rounded-lg mb-0" src={opensourcelg} alt="Opensource Logo">
+            <figcaption class="my-0 text-center "><a href="https://opensource.org/" target="_blank">®</a></figcaption>
+        </figure>
 
-    <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
-        <img class="dark:invert h-auto max-w-full rounded-lg" src={githublg} alt="Github Logo">
-        <figcaption class="mb-0  text-center "><a href="https://github.com/" target="_blank">®</a></figcaption>
-    </figure>
+        <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
+            <img class="dark:invert h-auto max-w-full rounded-lg" src={githublg} alt="Github Logo">
+            <figcaption class="mb-0  text-center "><a href="https://github.com/" target="_blank">®</a></figcaption>
+        </figure>
 
-    <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
-        <img class="dark:invert h-auto max-w-full rounded-lg" src={sveltekitlg} alt="Sveltekit LOGO">
-        <figcaption class="mb-0 text-center "><a href="https://kit.svelte.dev/" target="_blank">®</a></figcaption>
-    </figure>
+        <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
+            <img class="dark:invert h-auto max-w-full rounded-lg" src={sveltekitlg} alt="Sveltekit LOGO">
+            <figcaption class="mb-0 text-center "><a href="https://kit.svelte.dev/" target="_blank">®</a></figcaption>
+        </figure>
 
-    <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
-        <img class="dark:invert h-auto max-w-full rounded-lg" src={vercellg} alt="Vercel Logo">
-        <figcaption class="mb-0 text-center "><a href="https://vercel.com/" target="_blank">®</a></figcaption>
-    </figure>
+        <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
+            <img class="dark:invert h-auto max-w-full rounded-lg" src={vercellg} alt="Vercel Logo">
+            <figcaption class="mb-0 text-center "><a href="https://vercel.com/" target="_blank">®</a></figcaption>
+        </figure>
 
-    <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
-        <img class="dark:invert h-auto max-w-full rounded-lg" src={flowbitelg} alt="Flowbite Logo">
-        <figcaption class="mb-0 text-center "><a href="https://flowbite.com/" target="_blank">®</a></figcaption>
-    </figure>
+        <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
+            <img class="dark:invert h-auto max-w-full rounded-lg" src={flowbitelg} alt="Flowbite Logo">
+            <figcaption class="mb-0 text-center "><a href="https://flowbite.com/" target="_blank">®</a></figcaption>
+        </figure>
 
-    <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
-        <img class="dark:invert h-auto max-w-full rounded-lg" src={openailg} alt="OpenAI Logo">
-        <figcaption class="text-center"><a href="https://openai.com/" target="_blank">®</a></figcaption>
-    </figure>
+        <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
+            <img class="dark:invert h-auto max-w-full rounded-lg" src={openailg} alt="OpenAI Logo">
+            <figcaption class="text-center"><a href="https://openai.com/" target="_blank">®</a></figcaption>
+        </figure>
 
-</div>
-  
+    </div>
+
+
+
 {/if}
+
+
+
+
 
 
 
@@ -90,27 +100,29 @@
         font-family: 'Russo One', sans-serif;
     }
 
-        @keyframes colorChange {
-            0% {
-                color: #32CD32; /* Start color */
-            }
-            50% {
-                color: purple; /* Middle color */
 
-            }
-            100% {
-                color: #32CD32; /* End color (back to the start) */
-            }
+
+    @keyframes colorChange {
+        0% {
+            color: #32CD32; /* Start color */
         }
+        50% {
+            color: purple; /* Middle color */
+
+        }
+        100% {
+            color: #32CD32; /* End color (back to the start) */
+        }
+    }
 
         
 
-        /* Apply the animation to the text */
+    /* Apply the animation to the text */
 
-        figure:hover {
-            animation: colorChange 2s infinite;
-            font-weight:800;
-        }
+    figure:hover {
+        animation: colorChange 2s infinite;
+        font-weight:800;
+    }
 
 
 </style>
