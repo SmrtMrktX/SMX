@@ -77,9 +77,9 @@
 
   <div  class="font-mono my-32 px-0 mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
       
-    <h3 class=""><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3><br>
+    <h3 class="p-1"><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3>
   
-    <h3 class=""><span class="text-purple-600">#Your presence</span> enriches our virtual haven, and we're excited to share this digital adventure with you.</h3>
+    <h3 class="p-1"><span class="text-purple-600">#Your presence</span> enriches our virtual haven, and we're excited to share this digital adventure with you.</h3>
     
   </div>
 
