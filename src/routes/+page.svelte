@@ -18,25 +18,28 @@
 
 
 
-<div class="spec flex flex-col justify-center items-center text-center mt-24">
+<div class=" spec  flex flex-col justify-center items-center text-center mt-24">
 
   <Blockquote alignment="center" size="xl">
-    <QuoteSolid class="w-8 h-8 text-gray-400 dark:text-gray-600" />
-      <span style="font-family: 'Russo One', sans-serif;" class="font-medium tracking-wider text-gray-500 dark:text-gray-400  leading-relaxed md:leading-loose ">
+    <QuoteSolid class="w-8 h-8 gray-800 dark:text-gray-400" />
+      <span style="font-family: 'Russo One', sans-serif;" 
+      class="font-medium tracking-wider text-gray-800 dark:text-gray-400  leading-relaxed md:leading-loose ">
         Awesome opensource
-        <a style="font-family: 'Russo One', sans-serif;" href="https://github.com/SmrtMrktX/SMX" target="_blank" class="text-black dark:text-white rounded hover:font-bold ">©</a>
+        <a style="font-family: 'Russo One', sans-serif;" href="https://github.com/SmrtMrktX/SMX" target="_blank" 
+        class="text-black dark:text-white rounded hover:font-extrabold ">
+        ©</a>
       </span>
   </Blockquote>
 
-  <h1 class="welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
+  <h1 class="py-2 px-4 rounded-full bg-white dark:bg-black welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
     Welcome to our 
-    <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-500 underline hover:capitalize hover:no-underline hover:text-blue-600">
+    <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-600  underline hover:capitalize hover:no-underline hover:text-blue-700">
       digital</a>
        home!
   </h1>
 
   
-  <Card class="hover:scale-105">
+  <Card class="hover:scale-105 bg-transparent backdrop-blur-sm dark:bg-transparent dark:backdrop-blur-sm">
     <GiftBoxSolid class="w-7 h-7  text-gray-500 dark:text-gray-400" />
     <a href="/bonus/passiveIncome">
       <h5 class="mb-2 text-2xl font-semibold tracking-tight text-primary-customBlack dark:text-primary-customSmoke hover:font-bold hover:text-primary-customLime">
@@ -57,7 +60,7 @@
 
 
 
-<div style="font-weight:700;" class="flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight">
+<div style="font-weight:700;" class="backdrop-blur-sm rounded-lg py-20 my-10 flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight shadow-2xl dark:shadow-black">
   
    
   <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl  font-extrabold">
@@ -75,7 +78,7 @@
   </div>
 
 
-  <div  class="font-mono my-32 px-0 mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
+  <div  class="  font-mono my-32 px-0 mx-1 md:mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
       
     <h3 class="p-1"><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3>
   
@@ -88,16 +91,23 @@
     Welcome, fellow seeker, to our corner of the web!
   </h1>
 
+
+
+
+
+
+
+
+
+
+
+  <h1 style="font-family: 'Russo One', sans-serif;color:lime;" 
+  class="flex justify-center items-center text-center font-extrabold   dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto  text-xs   italic tracking-widest leading-loose">
+    SMX™ Simple Life
+  </h1>
+
+
 </div>
-
-
-
-
-<h1 style="font-family: 'Russo One', sans-serif;color:lime;" class="flex justify-center items-center text-center font-extrabold   dark:bg-black bg-white shadow-xl dark:shadow-black  rounded-full w-44 mx-auto my-6 text-xs   italic tracking-widest leading-loose">
-  SMX™ Simple Life
-</h1>
-
-
 
 
 
@@ -106,9 +116,9 @@
 </Badge>
 
 
-
-
 <style>
+
+
 
   .spec {
     height: 70vh;
