@@ -35,18 +35,20 @@
   <SmxLoader />
 
 {:else}
-
-    <h1 class="text-center tracking-widest	text-2xl md:text-3xl font-extrabold m-auto"> Privacy Policy</h1> 
+    
+    
+    <h1 class="text-center tracking-widest text-2xl md:text-3xl font-extrabold m-auto"> Privacy Policy</h1> 
 
     <h2 class="text-center m-auto tracking-widest text-xl md:text-2xl text-primary-customLime">
     Your privacy is important to us.
     </h2>
 
-    <div class="justify-center items-center text-center p-2 mb-24">
+    <div class="backdrop-blur-sm justify-center items-center text-center p-2 mb-24">
         <h3 class=" leading-10 tracking-widest md:px-16">
             It is Smrt Mrkt X's policy to respect your privacy regarding any information we may collect from you across our website, and other sites we own and operate.
         </h3>
     </div>
+    
   
 {/if}
 

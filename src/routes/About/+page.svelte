@@ -39,14 +39,14 @@
 
 
 
-    <div class="m-10 text-3xl md:text-4xl font-bold tracking-widest text-primary-customLime justify-center items-center text-center">
+    <div style="color:lime;" class="m-10 text-3xl md:text-4xl font-bold tracking-widest justify-center items-center text-center">
         <!-- <h1 class="my-10 text-3xl md:text-4xl font-bold tracking-widest text-primary-customLime underline">POWERED BY</h1> -->
         <PoweredBy  text="POWERED BY" delay={250} />
     </div>
 
 
 
-    <div class="grid gap-10 md:grid-cols-2  md:gap-10 lg:gap-20 justify-center items-center text-center mb-10 mx-auto px-10 lg:px-20 text-xl lg:text-2xl ">
+    <div class="backdrop-blur-sm grid gap-10 md:grid-cols-2  md:gap-10 lg:gap-20 justify-center items-center text-center mb-10 mx-auto px-10 lg:px-20 text-xl lg:text-2xl ">
 
         <figure class="grid md:col-span-1 max-w-xl rounded-lg transition duration-700 ease-in-out p-1 hover:scale-105 hover:shadow-md hover:shadow-customColorD  dark:hover:shadow-customColorW">
             <img class="dark:invert h-auto max-w-full rounded-lg mb-0" src={opensourcelg} alt="Opensource Logo">

@@ -59,7 +59,7 @@
   
 
   
-<main class="mx-1 my-1 md:mx-2 lg:mx-4 px-2 sm:px-4 md:px-8 lg:px-16 py-2  shadow-2xl dark:shadow-black  md:text-lg rounded-md  ">
+<main class="mx-1 my-1 md:mx-2 lg:mx-4 px-2 sm:px-4 md:px-8 lg:px-16 py-2  shadow-2xl dark:shadow-gray-900  md:text-lg rounded-md  ">
   <slot />
 </main>
 
