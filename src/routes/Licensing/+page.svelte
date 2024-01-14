@@ -43,7 +43,7 @@
 
 
 
-  <div class="flex justify-center items-center m-auto border shadow-2xl rounded  border-lime-400 md:border-2 p-2 lg:text-xl leading-relaxed tracking-wider max-w-4xl">
+  <div class="backdrop-blur-sm flex justify-center items-center m-auto border shadow-2xl rounded  border-lime-400 md:border-2 p-2 lg:text-xl leading-relaxed tracking-wider max-w-4xl">
     <span class="p-2">
       <h1 style="font-family: 'Russo One', sans-serif;" class="font-bold text-purple-600 "> MIT License</h1>
  
