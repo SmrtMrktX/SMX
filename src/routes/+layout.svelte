@@ -15,7 +15,7 @@
   import smxlg from "$lib/img/smxlg.png"
   import { DarkMode } from 'flowbite-svelte';
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
-  import { Footer, FooterCopyright, FooterLinkGroup, FooterLink } from 'flowbite-svelte';
+  import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, Badge } from 'flowbite-svelte';
 
   // Check screen size
   function checkScreenSize() {
@@ -59,16 +59,20 @@
   
 
   
-<main class="mx-1 my-1 md:mx-2 lg:mx-4 px-2 sm:px-4 md:px-8 lg:px-16 py-2  shadow-2xl dark:shadow-gray-900  md:text-lg rounded-md  ">
+<main class="mx-1 my-1 md:mx-2 lg:mx-4 px-2 sm:px-4 md:px-8 lg:px-16 py-2   md:text-lg rounded-md  ">
   <slot />
 </main>
 
-
-
-  
+<div class="justify-center items-center text-center">
+<Badge  rounded color="blue" class="tracking-widest">
+  Version 0.0.2
+</Badge>
+</div>  
   
 <Footer class="pb-1 pl-1 md:pl-2 lg:pl-4">
-    
+  
+
+
   <FooterLinkGroup aClass="font-style" ulClass="flex flex-wrap items-center mt-3 pt-2 text-sm text-gray-500 dark:text-gray-400 ">
     <FooterLink href="/About">About</FooterLink>
     <FooterLink href="/PrivacyPolicy">Privacy Policy</FooterLink>

@@ -1,5 +1,5 @@
 <script>
-  import { Blockquote, Card, Badge } from "flowbite-svelte";
+  import { Blockquote, Card } from "flowbite-svelte";
 
   import { QuoteSolid, GiftBoxSolid, ArrowUpRightFromSquareOutline } from 'flowbite-svelte-icons';
 
@@ -20,7 +20,7 @@
 
 <div class=" spec  flex flex-col justify-center items-center text-center mt-24">
 
-  <Blockquote alignment="center" size="xl">
+  <Blockquote alignment="center" size="lg" class="opacity-90">
     <QuoteSolid class="w-8 h-8 text-gray-800 dark:text-gray-200" />
       <span style="font-family: 'Russo One', sans-serif;" 
       class="font-medium tracking-wider text-gray-800 dark:text-gray-200  leading-relaxed md:leading-loose ">
@@ -31,7 +31,7 @@
       </span>
   </Blockquote>
 
-  <h1 class="py-2 px-4 rounded-full bg-white dark:bg-black welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
+  <h1 class="backdrop-blur-sm text-black dark:text-white py-2 px-4 rounded-full shadow-2xl dark:shadow-gray-950  welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
     Welcome to our 
     <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-600  underline hover:capitalize hover:no-underline hover:text-blue-700">
       digital</a>
@@ -60,7 +60,7 @@
 
 
 
-<div style="font-weight:700;" class="backdrop-blur-sm rounded-lg py-20 my-10 flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight shadow-md dark:shadow-black">
+<div style="font-weight:700;" class=" rounded-md py-10 my-10 flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight shadow-md  border-t-2">
   
    
   <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl  font-extrabold">
@@ -78,7 +78,7 @@
   </div>
 
 
-  <div  class="  font-mono my-32 px-0 mx-1 md:mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
+  <div  class="backdrop-blur-sm  font-mono my-32 px-0 mx-1 md:mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
       
     <h3 class="p-1"><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3>
   
@@ -101,7 +101,7 @@
 
 
   <h1 style="font-family: 'Russo One', sans-serif;color:lime;" 
-  class="flex justify-center items-center text-center font-extrabold bg-white  dark:bg-black  shadow-xl dark:shadow-black  rounded-full w-44 mx-auto  text-xs   italic tracking-widest leading-loose">
+  class="flex justify-center items-center text-center font-extrabold backdrop-blur-md  rounded-full w-44 mx-auto  text-xs   italic tracking-widest leading-loose">
     SMX™ Simple Life
   </h1>
 
@@ -110,9 +110,6 @@
 </div>
 
 
-<Badge rounded color="purple" class="justify-center items-center text-center mx-auto my-3  tracking-widest font-extrabold">
-  Version 0.0.2
-</Badge>
 
 
 <style>
