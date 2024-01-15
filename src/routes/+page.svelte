@@ -62,7 +62,7 @@
 
 
 
-<div style="font-weight:700;" class="rounded-md py-10 my-10 flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight shadow-md border-t-2">
+<div style="font-weight:700;" class="rounded-md py-10 my-10 flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight shadow-md border-t-4 dark:border-none dark:shadow-inner dark:shadow-customColorW">
   
    
   <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl font-extrabold">
