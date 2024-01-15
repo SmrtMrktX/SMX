@@ -3,7 +3,7 @@
 
   import { QuoteSolid, GiftBoxSolid, ArrowUpRightFromSquareOutline } from 'flowbite-svelte-icons';
 
-  import BestOf from "$lib/Components/BestOf.svelte";
+  import UltimateExplore from "$lib/Components/UltimateExplore.svelte";
 </script>
 
 
@@ -31,11 +31,13 @@
       </span>
   </Blockquote>
 
-  <h1 class="backdrop-blur-sm text-black dark:text-white py-2 px-4 rounded-full shadow-2xl dark:shadow-gray-950  welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
+  <h1 class="backdrop-blur-sm text-black dark:text-white py-2 px-4 rounded-full shadow-2xl dark:shadow-inner dark:shadow-blue-600 welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
     Welcome to our 
-    <a style="font-family: 'Russo One', sans-serif;" href="/digital" class=" text-blue-600  underline hover:capitalize hover:no-underline hover:text-blue-700">
-      digital</a>
-       home!
+    <a style="font-family: 'Russo One', sans-serif;" href="/digital" 
+    class="rounded-md px-1 text-blue-600  hover:no-underline hover:text-blue-700 shadow-inner dark:shadow-blue-900 shadow-blue-600 hover:shadow-none ">
+      digital
+    </a>
+    home!
   </h1>
 
   
@@ -56,14 +58,14 @@
 
 
 
-<BestOf />
+<UltimateExplore />
 
 
 
-<div style="font-weight:700;" class=" rounded-md py-10 my-10 flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight shadow-md  border-t-2">
+<div style="font-weight:700;" class="rounded-md py-10 my-10 flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight shadow-md border-t-4 dark:border-none dark:shadow-inner dark:shadow-customColorW">
   
    
-  <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl  font-extrabold">
+  <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl font-extrabold">
     We're thrilled to have you here,
   </h1>
 
@@ -100,8 +102,8 @@
 
 
 
-  <h1 style="font-family: 'Russo One', sans-serif;color:lime;" 
-  class="flex justify-center items-center text-center font-extrabold backdrop-blur-md  rounded-full w-44 mx-auto  text-xs   italic tracking-widest leading-loose">
+  <h1 style="font-family: 'Russo One', sans-serif;color:lime;"
+  class="flex justify-center items-center text-center font-extrabold backdrop-blur-md  rounded-full w-44 mx-auto  text-xs italic tracking-widest leading-loose">
     SMX™ Simple Life
   </h1>
 
