@@ -66,7 +66,11 @@
   
    
   <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl font-extrabold">
-    We're thrilled to have you here,
+    We're thrilled to have
+    <span style="font-family: 'Russo One', sans-serif;" class="font-normal text-primary-customLime">
+      you
+    </span>
+    here,
   </h1>
 
   <div  class="my-20 text-lg md:text-xl lg:text-2xl max-w-4xl justify-center items-center mx-auto">
