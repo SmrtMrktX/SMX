@@ -64,7 +64,7 @@
 </main>
 
 <div class="justify-center items-center text-center">
-<Badge  rounded color="blue" class="tracking-widest">
+<Badge  rounded color="blue" class="font-light">
   Version 0.0.2
 </Badge>
 </div>  
@@ -73,7 +73,7 @@
   
 
 
-  <FooterLinkGroup aClass="font-style" ulClass="flex flex-wrap items-center mt-3 pt-2 text-sm text-gray-500 dark:text-gray-400 ">
+  <FooterLinkGroup aClass="font-style" ulClass="flex flex-wrap items-center pt-2 text-sm text-gray-500 dark:text-gray-400 ">
     <FooterLink href="/About">About</FooterLink>
     <FooterLink href="/PrivacyPolicy">Privacy Policy</FooterLink>
     <FooterLink href="/Licensing">Licensing</FooterLink>
