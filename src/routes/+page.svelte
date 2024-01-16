@@ -31,7 +31,7 @@
       </span>
   </Blockquote>
 
-  <h1 class="backdrop-blur-sm text-black dark:text-white py-2 px-4 rounded-full shadow-2xl dark:shadow-inner dark:shadow-blue-600 welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
+  <h1 class="backdrop-blur-sm text-black dark:text-white py-2 px-4 rounded-full shadow-2xl dark:shadow-inner dark:shadow-blue-800 welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
     Welcome to our 
     <a style="font-family: 'Russo One', sans-serif;" href="/digital" 
     class="rounded-md px-1 text-blue-600  hover:no-underline hover:text-blue-700 shadow-inner dark:shadow-blue-900 shadow-blue-600 hover:shadow-none ">
@@ -66,7 +66,11 @@
   
    
   <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl font-extrabold">
-    We're thrilled to have you here,
+    We're thrilled to have
+    <span style="font-family: 'Russo One', sans-serif;" class="font-normal text-primary-customLime">
+      you
+    </span>
+    here,
   </h1>
 
   <div  class="my-20 text-lg md:text-xl lg:text-2xl max-w-4xl justify-center items-center mx-auto">
@@ -80,7 +84,7 @@
   </div>
 
 
-  <div  class="backdrop-blur-sm  font-mono my-32 px-0 mx-1 md:mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
+  <div  class="backdrop-blur-sm  font-mono my-32 px-0 mx-2 md:mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
       
     <h3 class="p-1"><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3>
   
