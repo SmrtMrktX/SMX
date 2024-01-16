@@ -65,7 +65,7 @@
 <div style="font-weight:700;" class="rounded-md py-10 my-10 flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight shadow-md border-t-4 dark:border-none dark:shadow-inner dark:shadow-customColorW">
   
    
-  <h1 class="pb-16 text-2xl md:text-3xl lg:text-4xl font-extrabold">
+  <h1 class="pb-10 text-2xl md:text-3xl lg:text-4xl font-extrabold">
     We're thrilled to have
     <span style="font-family: 'Russo One', sans-serif;" class="font-normal text-primary-customLime">
       you
@@ -93,28 +93,19 @@
   </div>
 
 
-  <h1 class="px-2 my-20 font-extrabold text-lg md:text-xl lg:text-2xl hover:underline">
+  <h1 class="px-2 my-10 font-extrabold text-lg md:text-xl lg:text-2xl hover:underline">
     Welcome, fellow seeker, to our corner of the web!
   </h1>
 
 
 
 
-
-
-
-
-
-
-  <h1 style="font-family: 'Russo One', sans-serif;color:lime;"
-  class="flex justify-center items-center text-center font-extrabold backdrop-blur-md  rounded-full w-44 mx-auto  text-xs italic tracking-widest leading-loose">
-    SMX™ Simple Life
-  </h1>
-
-
-
 </div>
 
+<h1 style="font-family: 'Russo One', sans-serif;color:lime;"
+class="flex justify-center items-center text-center font-extrabold backdrop-blur-md  rounded-full w-44 mx-auto  text-xs italic tracking-widest leading-loose">
+  SMX™ Simple Life
+</h1>
 
 
 

@@ -85,9 +85,9 @@
   
 {:else}
 
-<div class="backdrop-blur-md m-auto text-2xl">
+<div class="backdrop-blur-md text-2xl m-auto md:max-w-2xl md:mx-auto md:my-20 lg:max-w-3xl">
 
-  <Tabs inactiveClasses="text-xl px-2 font-bold mx-4" activeClasses="mx-4 text-2xl text-blue-600 font-extrabold">
+  <Tabs inactiveClasses="text-xl px-2 font-bold mx-4" activeClasses="mx-4 text-lg text-blue-600 font-extrabold">
     
     <TabItem open title="Tips">
 
