@@ -58,7 +58,7 @@
 
   <h1 style="font-family: 'Russo One', sans-serif;" class="mx-auto my-5  text-2xl md:text-3xl lg:text-4xl">
       Blockchain 
-      <span  class="text-purple-700">
+      <span  class="text-purple-700 dark:text-primary-customYellow">
         Explorer
       </span>
   </h1>
