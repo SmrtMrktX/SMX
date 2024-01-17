@@ -20,10 +20,10 @@
 
 <div class=" spec  flex flex-col justify-center items-center text-center mt-24">
 
-  <Blockquote alignment="center" size="lg" class="opacity-90">
-    <QuoteSolid class="w-8 h-8 text-gray-800 dark:text-gray-200" />
+  <Blockquote alignment="center" size="lg">
+    <QuoteSolid class="w-8 h-8 text-gray-900 dark:text-gray-100" />
       <span style="font-family: 'Russo One', sans-serif;" 
-      class="font-medium tracking-wider text-gray-800 dark:text-gray-200  leading-relaxed md:leading-loose ">
+      class="font-medium tracking-wider text-gray-900 dark:text-gray-100  leading-relaxed md:leading-loose ">
         Awesome opensource
         <a style="font-family: 'Russo One', sans-serif;" href="https://github.com/SmrtMrktX/SMX" target="_blank" 
         class="text-black dark:text-white rounded hover:font-extrabold ">
@@ -31,10 +31,10 @@
       </span>
   </Blockquote>
 
-  <h1 class="backdrop-blur-sm text-black dark:text-white py-2 px-4 rounded-full shadow-2xl dark:shadow-inner dark:shadow-blue-800 welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
+  <h1 class="backdrop-blur text-black dark:text-white py-2 px-4 rounded-full shadow-2xl dark:shadow-inner dark:shadow-blue-800 welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
     Welcome to our 
     <a style="font-family: 'Russo One', sans-serif;" href="/digital" 
-    class="rounded-md px-1 text-blue-600  hover:no-underline hover:text-blue-700 shadow-inner dark:shadow-blue-900 shadow-blue-600 hover:shadow-none ">
+    class="rounded-md px-1 text-blue-600 dark:text-blue-800 hover:no-underline hover:text-blue-700 shadow-inner dark:shadow-blue-900 shadow-blue-600 hover:shadow-none ">
       digital
     </a>
     home!
@@ -73,18 +73,18 @@
     here,
   </h1>
 
-  <div  class="my-20 text-lg md:text-xl lg:text-2xl max-w-4xl justify-center items-center mx-auto">
-    <h2 class="my-20">where curiosity meets discovery and every click unveils a world of possibilities.</h2>
+  <div  class="text-center my-20 text-lg md:text-xl lg:text-2xl max-w-4xl justify-center items-center mx-auto">
+    <h2 class="backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20">where curiosity meets discovery and every click unveils a world of possibilities.</h2>
 
-    <h2 class="my-20"> Whether you're a seasoned explorer or a newcomer seeking inspiration, our site is designed with you in mind.</h2>
+    <h2 class="backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20"> Whether you're a seasoned explorer or a newcomer seeking inspiration, our site is designed with you in mind.</h2>
 
-    <h2 class="my-20"> Dive into our collection of articles, resources, and insights crafted to ignite your imagination and satisfy your thirst for knowledge.</h2>
+    <h2 class="backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20"> Dive into our collection of articles, resources, and insights crafted to ignite your imagination and satisfy your thirst for knowledge.</h2>
 
-    <h2 class="my-20"> From informative guides to thought-provoking content, embark on a journey where learning knows no bounds.</h2>
+    <h2 class="backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20"> From informative guides to thought-provoking content, embark on a journey where learning knows no bounds.</h2>
   </div>
 
 
-  <div  class="backdrop-blur-sm  font-mono my-32 px-0 mx-2 md:mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
+  <div  class="backdrop-blur-sm dark:bg-black  font-mono my-32 px-0 mx-2 md:mx-auto max-w-3xl text-lg md:text-xl lg:text-2xl border-2 border-primary-customLime rounded-xl shadow-lg dark:shadow-black">
       
     <h3 class="p-1"><span style="font-family: 'Russo One', sans-serif;color:lime;">#Join us</span> as we traverse the digital realm together, exploring, learning, and growing.</h3>
   
