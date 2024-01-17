@@ -58,7 +58,7 @@
 
   <h1 style="font-family: 'Russo One', sans-serif;" class="mx-auto my-5  text-2xl md:text-3xl lg:text-4xl">
       Blockchain 
-      <span  class="text-purple-700">
+      <span  class="text-purple-700 dark:text-primary-customYellow">
         Explorer
       </span>
   </h1>
@@ -82,8 +82,8 @@
         <Indicator color="green" size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">Live</h2>
       </Badge>
-      <Button color="blue" class="w-fit mx-auto my-3">
-        <a href="https://www.blockchain.com/explorer" target="_blank">Explorer</a> <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+      <Button href="https://www.blockchain.com/explorer" target="_blank" color="blue" class="w-fit mx-auto my-3">
+        Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
       </Button>
     </Card>
 
@@ -97,8 +97,8 @@
         <Indicator color="green" size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">Live</h2>
       </Badge>
-      <Button color="blue" class="w-fit mx-auto my-3">
-        <a href="https://etherscan.io/" target="_blank">Explorer</a> <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+      <Button href="https://etherscan.io/" target="_blank" color="blue" class="w-fit mx-auto my-3">
+        Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
       </Button>
     </Card>
 
@@ -112,8 +112,8 @@
         <Indicator color="green" size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">Live</h2>
       </Badge>
-      <Button color="blue" class="w-fit mx-auto my-3">
-        <a href="https://www.oklink.com/usdt" target="_blank">Explorer</a> <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+      <Button href="https://www.oklink.com/usdt" target="_blank" color="blue" class="w-fit mx-auto my-3">
+        Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
       </Button>
     </Card>
 
@@ -127,8 +127,8 @@
         <Indicator color="green" size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">Live</h2>
       </Badge>
-      <Button color="blue" class="w-fit mx-auto my-3">
-        <a href="https://explorer.bnbchain.org/" target="_blank">Explorer</a> <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+      <Button href="https://explorer.bnbchain.org/" target="_blank" color="blue" class="w-fit mx-auto my-3">
+        Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
       </Button>
     </Card>
 
@@ -142,8 +142,8 @@
         <Indicator color="green" size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">Live</h2>
       </Badge>
-      <Button color="blue" class="w-fit mx-auto my-3">
-        <a href="hhttps://explorer.solana.com/" target="_blank">Explorer</a> <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+      <Button href="hhttps://explorer.solana.com/" target="_blank" color="blue" class="w-fit mx-auto my-3">
+        Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
       </Button>
     </Card>
 
@@ -157,8 +157,8 @@
         <Indicator color="green" size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">Live</h2>
       </Badge>
-      <Button color="blue" class="w-fit mx-auto my-3">
-        <a href="https://xrpscan.com/" target="_blank">Explorer</a> <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+      <Button href="https://xrpscan.com/" target="_blank" color="blue" class="w-fit mx-auto my-3">
+        Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
       </Button>
     </Card>
 
@@ -172,8 +172,8 @@
         <Indicator color="green" size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">Live</h2>
       </Badge>
-      <Button color="blue" class="w-fit mx-auto my-3">
-        <a href="https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48" target="_blank">Explorer</a> <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+      <Button href="https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48" target="_blank" color="blue" class="w-fit mx-auto my-3">
+        Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
       </Button>
     </Card>
 
@@ -187,8 +187,8 @@
         <Indicator color="green" size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">Live</h2>
       </Badge>
-      <Button color="blue" class="w-fit mx-auto my-3">
-        <a href="https://explorer.cardano.org/en" target="_blank">Explorer</a> <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+      <Button href="https://explorer.cardano.org/en" target="_blank" color="blue" class="w-fit mx-auto my-3">
+        Explorer <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
       </Button>
     </Card>
 
@@ -202,8 +202,8 @@
         <Indicator color="green" size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">Live</h2>
       </Badge>
-      <Button color="blue" class="w-fit mx-auto my-3">
-        <a href="https://subnets.avax.network/" target="_blank">Explorer</a> <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+      <Button href="https://subnets.avax.network/" target="_blank" color="blue" class="w-fit mx-auto my-3">
+        Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
       </Button>
     </Card>
 
@@ -216,8 +216,8 @@
         <Indicator color="green" size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">Live</h2>
       </Badge>
-      <Button color="blue" class="w-fit mx-auto my-3">
-        <a href="https://dogechain.info/" target="_blank">Explorer</a> <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+      <Button href="https://dogechain.info/" target="_blank" color="blue" class="w-fit mx-auto my-3">
+        Explorer <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
       </Button>
     </Card>
   </div>
