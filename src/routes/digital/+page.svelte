@@ -3,7 +3,7 @@
   import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
 
 
-  import ComingSoon from "$lib/Components/ComingSoon.svelte";
+  import ExploreBtn from "$lib/Components/ExploreBtn.svelte";
   import SliderComponent from "$lib/Components/SliderComponent.svelte";
   import SmxLoader from "$lib/Components/SmxLoader.svelte";
 
@@ -43,7 +43,7 @@
 {:else}
 
   <SliderComponent />
-  <ComingSoon />
+  <ExploreBtn />
   
 {/if}
 

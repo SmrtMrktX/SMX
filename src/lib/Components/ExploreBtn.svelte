@@ -7,7 +7,7 @@
 
     </div>
     
-    Explore
+    <a href="/digital/explore">Explore</a>
     
     <div class="right">
     
