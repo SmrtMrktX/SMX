@@ -34,10 +34,15 @@
     ToOther();
 
 
-    
-    
-    let bitcoinPrice, ethereumPrice, tetherPrice, binancePrice, solanaPrice,usdcPrice, xrpPrice,cardanoPrice, avalanchePrice, dogecoinPrice;
-    
+    let colorBtc, colorEth, colorUsdt, colorBnb, colorSol, colorUsdc, colorXrp, colorAda, colorAvax, colorDoge;
+    colorBtc = colorEth = colorUsdt = colorBnb = colorSol = colorUsdc = colorXrp = colorAda = colorAvax = colorDoge = "green";
+
+    let bitcoinPrice, ethereumPrice, tetherPrice, binancePrice, solanaPrice, usdcPrice, xrpPrice, cardanoPrice, avalanchePrice, dogecoinPrice;
+    bitcoinPrice = ethereumPrice = tetherPrice = binancePrice = solanaPrice = usdcPrice = xrpPrice = cardanoPrice = avalanchePrice = dogecoinPrice = 'Loading';
+
+    let lastbitcoinPrice, lastethereumPrice, lasttetherPrice, lastbinancePrice, lastsolanaPrice, lastusdcPrice, lastxrpPrice, lastcardanoPrice, lastavalanchePrice, lastdogecoinPrice;
+    lastbitcoinPrice = lastethereumPrice = lasttetherPrice = lastbinancePrice = lastsolanaPrice = lastusdcPrice = lastxrpPrice = lastcardanoPrice = lastavalanchePrice = lastdogecoinPrice = 0;
+
     
     onMount(async () => {
       try {
@@ -45,17 +50,34 @@
         const mydata = await response.json();
 
         bitcoinPrice = parseInt(mydata.data[0].priceUsd);
+        lastbitcoinPrice = bitcoinPrice;
+
         ethereumPrice = parseInt(mydata.data[1].priceUsd);
+        lastethereumPrice = ethereumPrice;
+
         tetherPrice = parseFloat(mydata.data[2].priceUsd).toFixed(2);
+        lasttetherPrice = tetherPrice;
+
         binancePrice = parseFloat(mydata.data[3].priceUsd).toFixed(2);
+        lastbinancePrice = binancePrice;
+
         solanaPrice = parseFloat(mydata.data[4].priceUsd).toFixed(2);
+        lastsolanaPrice = solanaPrice;
+
         usdcPrice = parseFloat(mydata.data[5].priceUsd).toFixed(2);
+        lastusdcPrice = usdcPrice;
+
         xrpPrice = parseFloat(mydata.data[6].priceUsd).toFixed(2);
+        lastxrpPrice = xrpPrice;
+
         cardanoPrice = parseFloat(mydata.data[7].priceUsd).toFixed(2);
+        lastcardanoPrice = cardanoPrice;
+
         avalanchePrice = parseFloat(mydata.data[8].priceUsd).toFixed(2);
+        lastavalanchePrice = avalanchePrice;
+
         dogecoinPrice = parseFloat(mydata.data[9].priceUsd).toFixed(2);
-
-
+        lastdogecoinPrice = dogecoinPrice;
 
 
       } catch (error) {
@@ -70,16 +92,141 @@
         const response = await fetch('https://api.coincap.io/v2/assets');
         const mydata = await response.json();
         
+
+
         bitcoinPrice = parseInt(mydata.data[0].priceUsd);
+        
+        if (bitcoinPrice < lastbitcoinPrice) {
+          colorBtc = "red";
+        } else if (bitcoinPrice > lastbitcoinPrice) {
+          colorBtc = "green";
+        }
+
+        lastbitcoinPrice = bitcoinPrice;
+
+
+
+
         ethereumPrice = parseInt(mydata.data[1].priceUsd);
+
+        if (ethereumPrice < lastethereumPrice) {
+          colorEth = "red";
+        } else if (ethereumPrice > lastethereumPrice) {
+         colorEth = "green";
+        }
+
+        lastethereumPrice = ethereumPrice;
+
+
+
+
+
         tetherPrice = parseFloat(mydata.data[2].priceUsd).toFixed(2);
+
+        if (tetherPrice < lasttetherPrice) {
+          colorUsdt = "red";
+        } else if (tetherPrice > lasttetherPrice) {
+         colorUsdt = "green";
+        }
+
+        lasttetherPrice = tetherPrice;
+
+
+
+
         binancePrice = parseFloat(mydata.data[3].priceUsd).toFixed(2);
+
+        if (binancePrice < lastbinancePrice) {
+          colorBnb = "red";
+        } else if (binancePrice > lastbinancePrice) {
+         colorBnb = "green";
+        }
+
+        lastbinancePrice = binancePrice;
+
+
+
+
+
         solanaPrice = parseFloat(mydata.data[4].priceUsd).toFixed(2);
+
+        if (solanaPrice < lastsolanaPrice) {
+          colorSol = "red";
+        } else if (solanaPrice > lastsolanaPrice) {
+         colorSol = "green";
+        }
+
+        lastsolanaPrice = solanaPrice;
+
+
+
+
+
         usdcPrice = parseFloat(mydata.data[5].priceUsd).toFixed(2);
+
+        if (usdcPrice < lastusdcPrice) {
+          colorUsdc = "red";
+        } else if (usdcPrice > lastusdcPrice) {
+         colorUsdc = "green";
+        }
+
+        lastusdcPrice = usdcPrice;
+
+
+
+
+
         xrpPrice = parseFloat(mydata.data[6].priceUsd).toFixed(2);
+
+        if (xrpPrice < lastxrpPrice) {
+          colorXrp = "red";
+        } else if (xrpPrice > lastxrpPrice) {
+         colorXrp = "green";
+        }
+
+        lastxrpPrice = xrpPrice;
+
+
+
+
+
         cardanoPrice = parseFloat(mydata.data[7].priceUsd).toFixed(2);
+
+        if (cardanoPrice < lastcardanoPrice) {
+          colorAda = "red";
+        } else if (cardanoPrice > lastcardanoPrice) {
+         colorAda = "green";
+        }
+
+        lastcardanoPrice = cardanoPrice;
+
+
+
+
+
         avalanchePrice = parseFloat(mydata.data[8].priceUsd).toFixed(2);
+
+        if (avalanchePrice < lastavalanchePrice) {
+          colorAvax = "red";
+        } else if (avalanchePrice > lastavalanchePrice) {
+         colorAvax = "green";
+        }
+
+        lastavalanchePrice = avalanchePrice;
+
+
+
+
+
         dogecoinPrice = parseFloat(mydata.data[9].priceUsd).toFixed(2);
+
+        if (dogecoinPrice < lastdogecoinPrice) {
+          colorDoge = "red";
+        } else if (dogecoinPrice > lastdogecoinPrice) {
+         colorDoge = "green";
+        }
+
+        lastdogecoinPrice = dogecoinPrice;
 
 
 
@@ -95,7 +242,7 @@
       clearInterval(intervalId);
     });
 
-    console.log(bitcoinPrice);
+    
   
   </script>
   
@@ -141,13 +288,16 @@
       
     </Card>
 
+
+
+
     <Card class="bg-transparent backdrop-blur-sm dark:bg-transparent dark:backdrop-blur-md m-auto">
       <img src={bitcoinlg} class="mx-auto h-12  md:h-14 lg:h-16  rounded-md hover:scale-105 hover:invert" alt="Bitcoin Logo"/>
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bitcoin</h5>
       <h1>BTC</h1>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2008</p>
-      <Badge color="green" rounded class="">
-        <Indicator color="green" size="xs" class="me-1" />
+      <Badge color={colorBtc} rounded class="">
+        <Indicator color={colorBtc} size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">${bitcoinPrice}</h2>
       </Badge>
       <Button href="https://www.blockchain.com/explorer" target="_blank" color="blue" class="w-fit mx-auto my-3">
@@ -161,8 +311,8 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ethereum</h5>
       <h1>ETH</h1>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2013</p>
-      <Badge color="green" rounded class="">
-        <Indicator color="green" size="xs" class="me-1" />
+      <Badge color={colorEth} rounded class="">
+        <Indicator color={colorEth} size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">${ethereumPrice}</h2>
       </Badge>
       <Button href="https://etherscan.io/" target="_blank" color="blue" class="w-fit mx-auto my-3">
@@ -176,8 +326,8 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Tether</h5>
       <h1>USDT</h1>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2014</p>
-      <Badge color="green" rounded class="">
-        <Indicator color="green" size="xs" class="me-1" />
+      <Badge color={colorUsdt} rounded class="">
+        <Indicator color={colorUsdt} size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">${tetherPrice}</h2>
       </Badge>
       <Button href="https://www.oklink.com/usdt" target="_blank" color="blue" class="w-fit mx-auto my-3">
@@ -191,8 +341,8 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Binance</h5>
       <h1>BNB</h1>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2017</p>
-      <Badge color="green" rounded class="">
-        <Indicator color="green" size="xs" class="me-1" />
+      <Badge color={colorBnb} rounded class="">
+        <Indicator color={colorBnb} size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">${binancePrice}</h2>
       </Badge>
       <Button href="https://explorer.bnbchain.org/" target="_blank" color="blue" class="w-fit mx-auto my-3">
@@ -206,8 +356,8 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Solana </h5>
       <h1>SOL</h1>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2020</p>
-      <Badge color="green" rounded class="">
-        <Indicator color="green" size="xs" class="me-1" />
+      <Badge color={colorSol} rounded class="">
+        <Indicator color={colorSol} size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">${solanaPrice}</h2>
       </Badge>
       <Button href="hhttps://explorer.solana.com/" target="_blank" color="blue" class="w-fit mx-auto my-3">
@@ -221,8 +371,8 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">XRP</h5>
       <h1>XRP</h1>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2012</p>
-      <Badge color="green" rounded class="">
-        <Indicator color="green" size="xs" class="me-1" />
+      <Badge color={colorXrp} rounded class="">
+        <Indicator color={colorXrp} size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">${xrpPrice}</h2>
       </Badge>
       <Button href="https://xrpscan.com/" target="_blank" color="blue" class="w-fit mx-auto my-3">
@@ -236,8 +386,8 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">USDC</h5>
       <h1>USDC</h1>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2018</p>
-      <Badge color="green" rounded class="">
-        <Indicator color="green" size="xs" class="me-1" />
+      <Badge color={colorUsdc} rounded class="">
+        <Indicator color={colorUsdc} size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">${usdcPrice}</h2>
       </Badge>
       <Button href="https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48" target="_blank" color="blue" class="w-fit mx-auto my-3">
@@ -251,8 +401,8 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Cardano</h5>
       <h1>ADA</h1>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2017</p>
-      <Badge color="green" rounded class="">
-        <Indicator color="green" size="xs" class="me-1" />
+      <Badge color={colorAda} rounded class="">
+        <Indicator color={colorAda} size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">${cardanoPrice}</h2>
       </Badge>
       <Button href="https://explorer.cardano.org/en" target="_blank" color="blue" class="w-fit mx-auto my-3">
@@ -266,8 +416,8 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Avalanche</h5>
       <h1>AVAX</h1>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2021</p>
-      <Badge color="green" rounded class="">
-        <Indicator color="green" size="xs" class="me-1" />
+      <Badge color={colorAvax} rounded class="">
+        <Indicator color={colorAvax} size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">${avalanchePrice}</h2>
       </Badge>
       <Button href="https://subnets.avax.network/" target="_blank" color="blue" class="w-fit mx-auto my-3">
@@ -280,8 +430,8 @@
       <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Dogecoin</h5>
       <h1>DOGE</h1>
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2013</p>
-      <Badge color="green" rounded class="">
-        <Indicator color="green" size="xs" class="me-1" />
+      <Badge color={colorDoge} rounded class="">
+        <Indicator color={colorDoge} size="xs" class="me-1" />
         <h2 class="text-sm text-black dark:text-white">${dogecoinPrice}</h2>
       </Badge>
       <Button href="https://dogechain.info/" target="_blank" color="blue" class="w-fit mx-auto my-3">
@@ -296,5 +446,8 @@
 
 
 <style>
-
+  h2 {
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+  }
 </style>
