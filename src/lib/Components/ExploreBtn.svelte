@@ -1,5 +1,5 @@
 
-<button style="--content: 'Explore!';"  class="duration-700 hover:scale-110">
+<button href="/digital/explore" style="--content: 'Explore!';"  class="duration-700 hover:scale-110">
   
   <a href="/digital/explore">
     
@@ -7,7 +7,7 @@
 
     </div>
     
-    <a href="/digital/explore">Explore</a>
+    Explore
     
     <div class="right">
     
