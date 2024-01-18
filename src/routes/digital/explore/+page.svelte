@@ -1,4 +1,8 @@
 <script>
+// @ts-nocheck
+
+    import { onDestroy, onMount } from "svelte";
+
 
     import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
     import { Card, Button, Indicator, Badge  } from 'flowbite-svelte';
@@ -28,6 +32,70 @@
     };
   
     ToOther();
+
+
+    
+    
+    let bitcoinPrice, ethereumPrice, tetherPrice, binancePrice, solanaPrice,usdcPrice, xrpPrice,cardanoPrice, avalanchePrice, dogecoinPrice;
+    
+    
+    onMount(async () => {
+      try {
+        const response = await fetch('https://api.coincap.io/v2/assets');    
+        const mydata = await response.json();
+
+        bitcoinPrice = parseInt(mydata.data[0].priceUsd);
+        ethereumPrice = parseInt(mydata.data[1].priceUsd);
+        tetherPrice = parseFloat(mydata.data[2].priceUsd).toFixed(2);
+        binancePrice = parseFloat(mydata.data[3].priceUsd).toFixed(2);
+        solanaPrice = parseFloat(mydata.data[4].priceUsd).toFixed(2);
+        usdcPrice = parseFloat(mydata.data[5].priceUsd).toFixed(2);
+        xrpPrice = parseFloat(mydata.data[6].priceUsd).toFixed(2);
+        cardanoPrice = parseFloat(mydata.data[7].priceUsd).toFixed(2);
+        avalanchePrice = parseFloat(mydata.data[8].priceUsd).toFixed(2);
+        dogecoinPrice = parseFloat(mydata.data[9].priceUsd).toFixed(2);
+
+
+
+
+      } catch (error) {
+        console.error(error);
+      }
+    });
+    
+    let intervalId;
+    
+    const fetchBitcoinPrice = async () => {
+      try {
+        const response = await fetch('https://api.coincap.io/v2/assets');
+        const mydata = await response.json();
+        
+        bitcoinPrice = parseInt(mydata.data[0].priceUsd);
+        ethereumPrice = parseInt(mydata.data[1].priceUsd);
+        tetherPrice = parseFloat(mydata.data[2].priceUsd).toFixed(2);
+        binancePrice = parseFloat(mydata.data[3].priceUsd).toFixed(2);
+        solanaPrice = parseFloat(mydata.data[4].priceUsd).toFixed(2);
+        usdcPrice = parseFloat(mydata.data[5].priceUsd).toFixed(2);
+        xrpPrice = parseFloat(mydata.data[6].priceUsd).toFixed(2);
+        cardanoPrice = parseFloat(mydata.data[7].priceUsd).toFixed(2);
+        avalanchePrice = parseFloat(mydata.data[8].priceUsd).toFixed(2);
+        dogecoinPrice = parseFloat(mydata.data[9].priceUsd).toFixed(2);
+
+
+
+
+      } catch (error) {
+        console.error(error);
+      }
+    }
+    
+    intervalId = setInterval(fetchBitcoinPrice, 10000);
+    
+    onDestroy(() => {
+      clearInterval(intervalId);
+    });
+
+    console.log(bitcoinPrice);
   
   </script>
   
@@ -80,7 +148,7 @@
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2008</p>
       <Badge color="green" rounded class="">
         <Indicator color="green" size="xs" class="me-1" />
-        <h2 class="text-sm text-black dark:text-white">Live</h2>
+        <h2 class="text-sm text-black dark:text-white">${bitcoinPrice}</h2>
       </Badge>
       <Button href="https://www.blockchain.com/explorer" target="_blank" color="blue" class="w-fit mx-auto my-3">
         Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
@@ -95,7 +163,7 @@
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2013</p>
       <Badge color="green" rounded class="">
         <Indicator color="green" size="xs" class="me-1" />
-        <h2 class="text-sm text-black dark:text-white">Live</h2>
+        <h2 class="text-sm text-black dark:text-white">${ethereumPrice}</h2>
       </Badge>
       <Button href="https://etherscan.io/" target="_blank" color="blue" class="w-fit mx-auto my-3">
         Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
@@ -110,7 +178,7 @@
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2014</p>
       <Badge color="green" rounded class="">
         <Indicator color="green" size="xs" class="me-1" />
-        <h2 class="text-sm text-black dark:text-white">Live</h2>
+        <h2 class="text-sm text-black dark:text-white">${tetherPrice}</h2>
       </Badge>
       <Button href="https://www.oklink.com/usdt" target="_blank" color="blue" class="w-fit mx-auto my-3">
         Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
@@ -125,7 +193,7 @@
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2017</p>
       <Badge color="green" rounded class="">
         <Indicator color="green" size="xs" class="me-1" />
-        <h2 class="text-sm text-black dark:text-white">Live</h2>
+        <h2 class="text-sm text-black dark:text-white">${binancePrice}</h2>
       </Badge>
       <Button href="https://explorer.bnbchain.org/" target="_blank" color="blue" class="w-fit mx-auto my-3">
         Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
@@ -140,7 +208,7 @@
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2020</p>
       <Badge color="green" rounded class="">
         <Indicator color="green" size="xs" class="me-1" />
-        <h2 class="text-sm text-black dark:text-white">Live</h2>
+        <h2 class="text-sm text-black dark:text-white">${solanaPrice}</h2>
       </Badge>
       <Button href="hhttps://explorer.solana.com/" target="_blank" color="blue" class="w-fit mx-auto my-3">
         Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
@@ -155,7 +223,7 @@
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2012</p>
       <Badge color="green" rounded class="">
         <Indicator color="green" size="xs" class="me-1" />
-        <h2 class="text-sm text-black dark:text-white">Live</h2>
+        <h2 class="text-sm text-black dark:text-white">${xrpPrice}</h2>
       </Badge>
       <Button href="https://xrpscan.com/" target="_blank" color="blue" class="w-fit mx-auto my-3">
         Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
@@ -170,7 +238,7 @@
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2018</p>
       <Badge color="green" rounded class="">
         <Indicator color="green" size="xs" class="me-1" />
-        <h2 class="text-sm text-black dark:text-white">Live</h2>
+        <h2 class="text-sm text-black dark:text-white">${usdcPrice}</h2>
       </Badge>
       <Button href="https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48" target="_blank" color="blue" class="w-fit mx-auto my-3">
         Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
@@ -185,7 +253,7 @@
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2017</p>
       <Badge color="green" rounded class="">
         <Indicator color="green" size="xs" class="me-1" />
-        <h2 class="text-sm text-black dark:text-white">Live</h2>
+        <h2 class="text-sm text-black dark:text-white">${cardanoPrice}</h2>
       </Badge>
       <Button href="https://explorer.cardano.org/en" target="_blank" color="blue" class="w-fit mx-auto my-3">
         Explorer <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
@@ -200,7 +268,7 @@
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2021</p>
       <Badge color="green" rounded class="">
         <Indicator color="green" size="xs" class="me-1" />
-        <h2 class="text-sm text-black dark:text-white">Live</h2>
+        <h2 class="text-sm text-black dark:text-white">${avalanchePrice}</h2>
       </Badge>
       <Button href="https://subnets.avax.network/" target="_blank" color="blue" class="w-fit mx-auto my-3">
         Explorer<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
@@ -214,7 +282,7 @@
       <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">since 2013</p>
       <Badge color="green" rounded class="">
         <Indicator color="green" size="xs" class="me-1" />
-        <h2 class="text-sm text-black dark:text-white">Live</h2>
+        <h2 class="text-sm text-black dark:text-white">${dogecoinPrice}</h2>
       </Badge>
       <Button href="https://dogechain.info/" target="_blank" color="blue" class="w-fit mx-auto my-3">
         Explorer <ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
