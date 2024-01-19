@@ -1,19 +1,19 @@
-import image1 from '$lib/img/slider/crypto.webp';
-import image2 from '$lib/img/slider/blockchain.webp';
+import image1 from '$lib/img/slider/blockchain.webp';
+import image2 from '$lib/img/slider/crypto.webp';
 
 
 export const images = [
   
   {
-    alt: 'Crypto',
+    alt: 'Blockchain',
     src: image1,
-    title: 'Crypto'
+    title: 'Blockchain'
   },
 
   {
-    alt: 'Blockchain',
+    alt: 'Crypto',
     src: image2,
-    title: 'Blockchain'
+    title: 'Crypto'
   }
   
 ];
