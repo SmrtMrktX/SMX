@@ -1,6 +1,7 @@
 <script>
 
-  import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+  import { Breadcrumb, BreadcrumbItem, GradientButton } from 'flowbite-svelte';
+
   import ComingSoon from "$lib/Components/ComingSoon.svelte";
   import SmxLoader from "$lib/Components/SmxLoader.svelte";
 
@@ -42,6 +43,7 @@
 
   <img src={webappslg} class="rounded m-auto w-full max-w-3xl shadow-sm shadow-primary-customLime" alt="web apps products"/>
 
-  <ComingSoon />
+  <GradientButton href="/products/webApps" color="purpleToBlue" class="m-auto font-bold">Web Applications</GradientButton>
+
   
 {/if}

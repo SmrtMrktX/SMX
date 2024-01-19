@@ -255,7 +255,7 @@
   <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
       <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
       <BreadcrumbItem href="/digital">Digital</BreadcrumbItem>
-      <BreadcrumbItem >Explore</BreadcrumbItem>
+      <BreadcrumbItem >Explorer</BreadcrumbItem>
   </Breadcrumb>
   
   
