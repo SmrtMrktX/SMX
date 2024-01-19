@@ -1,7 +1,7 @@
 
-<button href="/digital/explore" style="--content: 'Explore!';"  class="duration-700 hover:scale-110">
+<button style="--content: 'Explore!';"  class="duration-700 hover:scale-110">
   
-  <a href="/digital/explore">
+  <a href="/digital/explorer">
     
     <div class="left">
 
