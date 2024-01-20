@@ -5,6 +5,8 @@
   
     import SmxLoader from "$lib/Components/SmxLoader.svelte";
     import ComingSoon from '$lib/Components/ComingSoon.svelte';
+
+    import basicwebpagelg from "$lib/img/products/webApps/basicwebpage.webp";
   
   
   
@@ -46,7 +48,7 @@
         
         <div  class="space-y-4 m-auto max-w-60 max-h-xs">
             
-          <Card img="/src/lib/img/products/webApps/basicwebpage.webp">
+          <Card img={basicwebpagelg}>
               
             <div class="justify-end items-end text-end self-end">
                 <Badge border color="green" >Free</Badge>
