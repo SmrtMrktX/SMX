@@ -28,9 +28,9 @@
   
   
   <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
-      <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
-      <BreadcrumbItem href="/products">Products</BreadcrumbItem>
-      <BreadcrumbItem>Web Apps</BreadcrumbItem>
+      <BreadcrumbItem href="/" home homeClass="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-black dark:hover:text-white">Home</BreadcrumbItem>
+      <BreadcrumbItem href="/products" linkClass='ms-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ms-2 dark:text-black dark:hover:text-white'>Products</BreadcrumbItem>
+      <BreadcrumbItem spanClass='ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-customColorD'>Web Apps</BreadcrumbItem>
   </Breadcrumb>
   
   
@@ -44,7 +44,7 @@
   
   {:else}
   
-    <div class="gap-4 grid  md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-16 m-auto">
+    <div class="gap-8 grid  md:grid-cols-2 md:gap-12 lg:grid-cols-3 lg:gap-16 m-auto py-10">
 
       <div  class="space-y-4 m-auto w-72 max-h-xs">
             
