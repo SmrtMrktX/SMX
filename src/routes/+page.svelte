@@ -62,7 +62,7 @@
 
 
 
-<div style="font-weight:700;" class="rounded-md py-10 my-10 flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight shadow-md border-t-4 dark:border-none dark:shadow-inner dark:shadow-customColorW">
+<div style="font-weight:700;" class="rounded-md py-10 mb-5 flex-col justify-center items-center text-center leading-loose tracking-wide font-extralight shadow-md border-t-4 dark:border-none dark:shadow-inner dark:shadow-customColorW">
   
    
   <h1 class="pb-10 text-2xl md:text-3xl lg:text-4xl font-extrabold">
@@ -74,13 +74,13 @@
   </h1>
 
   <div  class="text-center my-20 text-lg md:text-xl lg:text-2xl max-w-4xl justify-center items-center mx-auto">
-    <h2 class="backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20">where curiosity meets discovery and every click unveils a world of possibilities.</h2>
+    <h2 class="bg-primary-customSmoke dark:bg-transparent dark:backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20">where curiosity meets discovery and every click unveils a world of possibilities.</h2>
 
-    <h2 class="backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20"> Whether you're a seasoned explorer or a newcomer seeking inspiration, our site is designed with you in mind.</h2>
+    <h2 class="bg-primary-customSmoke dark:bg-transparent dark:backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20"> Whether you're a seasoned explorer or a newcomer seeking inspiration, our site is designed with you in mind.</h2>
 
-    <h2 class="backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20"> Dive into our collection of articles, resources, and insights crafted to ignite your imagination and satisfy your thirst for knowledge.</h2>
+    <h2 class="bg-primary-customSmoke dark:bg-transparent dark:backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20"> Dive into our collection of articles, resources, and insights crafted to ignite your imagination and satisfy your thirst for knowledge.</h2>
 
-    <h2 class="backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20"> From informative guides to thought-provoking content, embark on a journey where learning knows no bounds.</h2>
+    <h2 class="bg-primary-customSmoke dark:bg-transparent dark:backdrop-blur-2xl rounded-xl shadow-inner shadow-purple-600 mx-2 p-1 my-20"> From informative guides to thought-provoking content, embark on a journey where learning knows no bounds.</h2>
   </div>
 
 
