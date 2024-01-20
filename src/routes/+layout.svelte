@@ -65,7 +65,7 @@
 
 <div class="justify-center items-center text-center">
 <Badge  rounded color="blue" class="font-light">
-  Version 0.0.2
+  Version 0.0.3
 </Badge>
 </div>  
   

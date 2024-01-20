@@ -25,11 +25,10 @@
 
 
 <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
-    <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
-    <BreadcrumbItem href="/bonus">Bonus</BreadcrumbItem>
-    <BreadcrumbItem>Passive Income</BreadcrumbItem>
+    <BreadcrumbItem href="/" home homeClass="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-black dark:hover:text-white">Home</BreadcrumbItem>
+    <BreadcrumbItem href="/bonus" linkClass='ms-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ms-2 dark:text-black dark:hover:text-white'>Bonus</BreadcrumbItem>
+    <BreadcrumbItem spanClass='ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-customColorD'>Passive Income</BreadcrumbItem>
 </Breadcrumb>
-
 
 
 

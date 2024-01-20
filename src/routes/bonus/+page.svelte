@@ -19,8 +19,8 @@
 
 
 <Breadcrumb aria-label="Default breadcrumb example" class="my-4">
-    <BreadcrumbItem href="/" home>Home</BreadcrumbItem>
-    <BreadcrumbItem>Bonus</BreadcrumbItem>
+    <BreadcrumbItem href="/" home homeClass="inline-flex items-center text-sm font-medium text-gray-700 hover:text-gray-900 dark:text-black dark:hover:text-white">Home</BreadcrumbItem>
+    <BreadcrumbItem spanClass='ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-customColorD'>Bonus</BreadcrumbItem>
 </Breadcrumb>
 
 
