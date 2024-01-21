@@ -41,7 +41,7 @@
 
 
 
-    <div style="color:lime;" class="m-10 text-3xl md:text-4xl font-bold tracking-widest justify-center items-center text-center">
+    <div style="background-color: lime;" class=" rounded-full my-10 mx-auto px-2 text-3xl md:text-4xl font-bold tracking-widest justify-center items-center text-center">
         <!-- <h1 class="my-10 text-3xl md:text-4xl font-bold tracking-widest text-primary-customLime underline">POWERED BY</h1> -->
         <PoweredBy  text="POWERED BY" delay={250} />
     </div>
