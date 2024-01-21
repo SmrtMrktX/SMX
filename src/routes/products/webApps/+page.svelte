@@ -7,6 +7,7 @@
 
     import basicwebpagelg from "$lib/img/products/webApps/basicwebpage.webp";
     import blackjacklg from "$lib/img/products/webApps/blackjackwebapp.webp";
+    import gridcsslg from "$lib/img/products/webApps/gridcssapp.webp";
   
   
   
@@ -48,6 +49,32 @@
 
       <div  class="space-y-4 m-auto w-72 max-h-xs">
             
+        <Card img={gridcsslg}>
+            
+          <div class="justify-end items-end text-end self-end">
+              <Badge border color="green" >Free</Badge>
+          </div> 
+            
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Grid Css App.</h5>
+            
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">HTML, CSS.</p>
+          
+
+          <div class="mx-auto mb-3 text-center rounded border-2">
+            <a style="font-family: 'Russo One', sans-serif;" href="https://github.com/smrket/GridCssApp" target="_blank" class="text-purple-600 mx-2">Source code</a>
+          </div>
+          
+          <Button href="https://smrket.github.io/GridCssApp/" target="_blank">
+            Live App<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+          </Button>
+
+          </Card>
+    </div>
+
+
+
+      <div  class="space-y-4 m-auto w-72 max-h-xs">
+            
           <Card img={blackjacklg}>
               
             <div class="justify-end items-end text-end self-end">
@@ -64,7 +91,7 @@
             </div>
             
             <Button href="https://smrket.github.io/BlackjackWebApp/" target="_blank">
-              Watch The App<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+              Live App<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
             </Button>
 
             </Card>
@@ -88,7 +115,7 @@
             </div>
             
             <Button href="https://smrket.github.io/BasicWebPage/" target="_blank">
-              Watch The App<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
+              Live App<ArrowRightOutline class="w-3.5 h-3.5 ms-2 text-white" />
             </Button>
 
             </Card>
