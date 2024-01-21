@@ -48,7 +48,7 @@
 
 {:else}
 
-  <div style="font-family: 'Russo One', sans-serif;" class="backdrop-blur-sm shadow-sm dark:shadow-black justify-center items-center text-center text-4xl my-10">
+  <div style="font-family: 'Russo One', sans-serif;" class="shadow-sm dark:shadow-black justify-center items-center text-center text-4xl my-10">
     <h1 class="text-6xl text-purple-500">Social</h1>
     
     <div class="grid grid-cols-2 gap-10 md:grid-cols-3 md:gap-20 justify-center items-center text-center space-x-4 my-20 mx-10">
