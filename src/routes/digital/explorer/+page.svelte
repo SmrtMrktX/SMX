@@ -51,65 +51,68 @@
 
           for (let i = 0; i < 10; i++) {
               
-              if(mydata.data[i].id = "bitcoin") {
+              if(mydata.data[i].id == "bitcoin") {
                   bitcoinPrice = parseInt(mydata.data[i].priceUsd);
                   lastbitcoinPrice = bitcoinPrice;
                   i+=1;
               }
 
-              if(mydata.data[i].id = "ethereum") {
+              if(mydata.data[i].id == "ethereum") {
                   ethereumPrice = parseInt(mydata.data[i].priceUsd);
                   lastethereumPrice = ethereumPrice;
                   i+=1;
               }
 
-              if(mydata.data[i].id = "tether") {
+              if(mydata.data[i].id == "tether") {
                   tetherPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
                   lasttetherPrice = tetherPrice;
                   i+=1;
               }
 
-              if(mydata.data[i].id = "binance-coin") {
+              if(mydata.data[i].id == "binance-coin") {
                   binancePrice = parseFloat(mydata.data[i].priceUsd).toFixed(2);
                   lastbinancePrice = binancePrice;
                   i+=1;
               }
 
-              if(mydata.data[i].id = "solana") {
+              if(mydata.data[i].id == "solana") {
                   solanaPrice = parseFloat(mydata.data[i].priceUsd).toFixed(2);
                   lastsolanaPrice = solanaPrice;
                   i+=1;
               }
 
-              if(mydata.data[i].id = "usd-coin") {
+              if(mydata.data[i].id == "usd-coin") {
                   usdcPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
                   lastusdcPrice = usdcPrice;
                   i+=1;
               }
 
-              if(mydata.data[i].id = "xrp") {
+              if(mydata.data[i].id == "xrp") {
                   xrpPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
                   lastxrpPrice = xrpPrice;
                   i+=1;
               }
 
-              if(mydata.data[i].id = "cardano") {
+              if(mydata.data[i].id == "cardano") {
                   cardanoPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
                   lastcardanoPrice = cardanoPrice;
                   i+=1;
               }
 
-              if(mydata.data[i].id = "dogecoin") {
-                  dogecoinPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
-                  lastdogecoinPrice = dogecoinPrice;
-                  i+=1;
-              }
+              
 
               
 
-              if(mydata.data[i].id = "avalanche") {
+              if(mydata.data[i].id == "avalanche") {
                   avalanchePrice = parseFloat(mydata.data[i].priceUsd).toFixed(2);
                   lastavalanchePrice = avalanchePrice;
+                  i+=1;
+              }
+
+
+              if(mydata.data[i].id == "dogecoin") {
+                  dogecoinPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
+                  lastdogecoinPrice = dogecoinPrice;
                   i+=1;
               }
 
@@ -138,7 +141,7 @@
 
           for (let i = 0; i < 10; i++) {
               
-              if(mydata.data[i].id = "bitcoin") {
+              if(mydata.data[i].id == "bitcoin") {
                   bitcoinPrice = parseInt(mydata.data[i].priceUsd);
                   i+=1;
                   if (bitcoinPrice < lastbitcoinPrice) {
@@ -151,7 +154,7 @@
 
 
 
-              if(mydata.data[i].id = "ethereum") {
+              if(mydata.data[i].id == "ethereum") {
                   ethereumPrice = parseInt(mydata.data[i].priceUsd);
                   i+=1;
                   if (ethereumPrice < lastethereumPrice) {
@@ -164,7 +167,7 @@
 
 
 
-              if(mydata.data[i].id = "tether") {
+              if(mydata.data[i].id == "tether") {
                   tetherPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
                   i+=1;
                   if (tetherPrice < lasttetherPrice) {
@@ -176,7 +179,7 @@
               }
 
 
-              if(mydata.data[i].id = "binance-coin") {
+              if(mydata.data[i].id == "binance-coin") {
                   binancePrice = parseFloat(mydata.data[i].priceUsd).toFixed(2);
                   i+=1;
                   if (binancePrice < lastbinancePrice) {
@@ -188,7 +191,7 @@
               }
 
 
-              if(mydata.data[i].id = "solana") {
+              if(mydata.data[i].id == "solana") {
                   solanaPrice = parseFloat(mydata.data[i].priceUsd).toFixed(2);
                   i+=1;
                   if (solanaPrice < lastsolanaPrice) {
@@ -201,7 +204,7 @@
 
 
 
-              if(mydata.data[i].id = "usd-coin") {
+              if(mydata.data[i].id == "usd-coin") {
                   usdcPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
                   i+=1;
                   if (usdcPrice < lastusdcPrice) {
@@ -214,7 +217,7 @@
 
 
 
-              if(mydata.data[i].id = "xrp") {
+              if(mydata.data[i].id == "xrp") {
                   xrpPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
                   i+=1;
                   if (xrpPrice < lastxrpPrice) {
@@ -227,7 +230,7 @@
 
 
 
-              if(mydata.data[i].id = "cardano") {
+              if(mydata.data[i].id == "cardano") {
                   cardanoPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
                   i+=1;
                   if (cardanoPrice < lastcardanoPrice) {
@@ -240,20 +243,11 @@
 
 
               
-              if(mydata.data[i].id = "dogecoin") {
-                  dogecoinPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
-                  i+=1;
-                  if (dogecoinPrice < lastdogecoinPrice) {
-                      colorDoge = "red";
-                  } else if (dogecoinPrice > lastdogecoinPrice) {
-                      colorDoge = "green";
-                  }
-                  lastdogecoinPrice = dogecoinPrice;  
-              }
+              
 
 
 
-              if(mydata.data[i].id = "avalanche") {
+              if(mydata.data[i].id == "avalanche") {
                   avalanchePrice = parseFloat(mydata.data[i].priceUsd).toFixed(2);
                   i+=1;
                   if (avalanchePrice < lastavalanchePrice) {
@@ -262,6 +256,19 @@
                       colorAvax = "green";
                   }
                   lastavalanchePrice = avalanchePrice;
+              }
+
+
+
+              if(mydata.data[i].id == "dogecoin") {
+                  dogecoinPrice = parseFloat(mydata.data[i].priceUsd).toFixed(4);
+                  i+=1;
+                  if (dogecoinPrice < lastdogecoinPrice) {
+                      colorDoge = "red";
+                  } else if (dogecoinPrice > lastdogecoinPrice) {
+                      colorDoge = "green";
+                  }
+                  lastdogecoinPrice = dogecoinPrice;  
               }
 
 
