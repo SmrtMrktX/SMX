@@ -6,7 +6,7 @@
     import SmxLoader from "$lib/Components/SmxLoader.svelte";
 
 
-    import webtemplateslg from "$lib/img/products/webApps/webtemplates.webp";
+    import webtemplateslg from "$lib/img/products/webApps/webtemplateslg.webp";
     import arabicwebappslg from "$lib/img/products/webApps/arabicwebappslg.webp";
     import crudapplg from "$lib/img/products/webApps/crudapp.webp";
     import basicwebpagelg from "$lib/img/products/webApps/basicwebpage.webp";
