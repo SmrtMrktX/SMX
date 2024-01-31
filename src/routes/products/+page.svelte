@@ -2,10 +2,10 @@
 
   import { Breadcrumb, BreadcrumbItem, GradientButton } from 'flowbite-svelte';
 
-  import ComingSoon from "$lib/Components/ComingSoon.svelte";
   import SmxLoader from "$lib/Components/SmxLoader.svelte";
 
   import webappslg from "$lib/img/products/webapps.webp";
+  import cybersecuritylg from "$lib/img/products/cybersecurity.webp";
 
 
   let x =true;
@@ -43,7 +43,13 @@
 
   <img src={webappslg} class="rounded m-auto w-full max-w-3xl shadow-sm shadow-primary-customLime" alt="web apps products"/>
 
-  <GradientButton href="/products/webApps" color="purpleToBlue" class="m-auto font-bold">Web Applications</GradientButton>
+  <GradientButton href="/products/webApps" color="purpleToBlue" class="mx-auto my-10 font-bold">Web Applications</GradientButton>
+
+
+
+  <img src={cybersecuritylg} class="rounded m-auto w-full max-w-3xl shadow-sm shadow-primary-customLime" alt="cybersecurity resources"/>
+
+  <GradientButton href="/products/cybersecurity" color="greenToBlue" class="mx-auto my-10 font-bold">Cybersecurity</GradientButton>
 
   
 {/if}
