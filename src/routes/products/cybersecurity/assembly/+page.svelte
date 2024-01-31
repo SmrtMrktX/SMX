@@ -1,9 +1,9 @@
 <script>
 
-    import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+    import { Breadcrumb, BreadcrumbItem, Timeline, TimelineItem, Button } from 'flowbite-svelte';
+    import { ArrowRightOutline } from 'flowbite-svelte-icons';
   
     import SmxLoader from "$lib/Components/SmxLoader.svelte";
-    import ComingSoon from "$lib/Components/ComingSoon.svelte";
 
 
   
@@ -39,10 +39,24 @@
     <SmxLoader />
   
   {:else}
+
+
+    <Timeline class="m-auto">
+
+      <TimelineItem title="01 Numbering System">
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Numbering System.</p>
+        <Button href="/products/cybersecurity/assembly/01NumberingSystem" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
+      </TimelineItem>
+
+    </Timeline>
   
-    <ComingSoon />
   
     
   {/if}
+
+
+
+  
+
   
   
