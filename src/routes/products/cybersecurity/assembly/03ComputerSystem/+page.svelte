@@ -8,7 +8,7 @@
     import lg001 from "$lib/img/products/cybersecurity/assembly/computerSystem/001.webp";
     import lg002 from "$lib/img/products/cybersecurity/assembly/computerSystem/002.webp";
     import lg003 from "$lib/img/products/cybersecurity/assembly/computerSystem/003.webp";
-    // import lg004 from "$lib/img/products/cybersecurity/assembly/computerSystem/004.webp";
+    import lg004 from "$lib/img/products/cybersecurity/assembly/computerSystem/004.webp";
     import lg005 from "$lib/img/products/cybersecurity/assembly/computerSystem/005.webp";
     import lg006 from "$lib/img/products/cybersecurity/assembly/computerSystem/006.webp";
     import lg007 from "$lib/img/products/cybersecurity/assembly/computerSystem/007.webp";
@@ -65,7 +65,7 @@
     <img src={lg001} class="rounded mx-auto my-4 w-full max-w-7xl shadow-sm shadow-primary-customLime" alt="001"/>
     <img src={lg002} class="rounded mx-auto my-4 w-full max-w-7xl shadow-sm shadow-primary-customLime" alt="002"/>
     <img src={lg003} class="rounded mx-auto my-4 w-full max-w-7xl shadow-sm shadow-primary-customLime" alt="003"/>
-    <!-- <img src={lg004} class="rounded mx-auto my-4 w-full max-w-7xl shadow-sm shadow-primary-customLime" alt="004"/> -->
+    <img src={lg004} class="rounded mx-auto my-4 w-full max-w-7xl shadow-sm shadow-primary-customLime" alt="004"/>
     <img src={lg005} class="rounded mx-auto my-4 w-full max-w-7xl shadow-sm shadow-primary-customLime" alt="005"/>
     <img src={lg006} class="rounded mx-auto my-4 w-full max-w-7xl shadow-sm shadow-primary-customLime" alt="006"/>
     <img src={lg007} class="rounded mx-auto my-4 w-full max-w-7xl shadow-sm shadow-primary-customLime" alt="007"/>
