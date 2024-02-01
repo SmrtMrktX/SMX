@@ -48,6 +48,11 @@
         <Button href="/products/cybersecurity/assembly/01NumberingSystem" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
       </TimelineItem>
 
+      <TimelineItem title="02 Data Formats">
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">"Data Formats Assembly" typically refers to the process of organizing and structuring data in a specific way, often using a standardized format.</p>
+        <Button href="/products/cybersecurity/assembly/02DataFormats" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
+      </TimelineItem>
+
     </Timeline>
   
   
