@@ -44,7 +44,7 @@
     <Timeline class="m-auto">
 
       <TimelineItem title="01 Numbering System">
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Numbering System.</p>
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">The assembly numbering system refers to the method of assigning and organizing part numbers or codes to components in a product or assembly.</p>
         <Button href="/products/cybersecurity/assembly/01NumberingSystem" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
       </TimelineItem>
 

@@ -52,7 +52,6 @@
         <BreadcrumbItem href="/products" linkClass='ms-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ms-2 dark:text-black dark:hover:text-white'>Products</BreadcrumbItem>
         <BreadcrumbItem href="/products/cybersecurity" linkClass='ms-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ms-2 dark:text-black dark:hover:text-white'>Cybersecurity</BreadcrumbItem>
         <BreadcrumbItem href="/products/cybersecurity/assembly" linkClass='ms-1 text-sm font-medium text-gray-700 hover:text-gray-900 md:ms-2 dark:text-black dark:hover:text-white'>Assembly</BreadcrumbItem>
-        <BreadcrumbItem spanClass='ms-1 text-sm font-medium text-gray-500 md:ms-2 dark:text-customColorD'>Numbering System</BreadcrumbItem>
     </Breadcrumb>
   
   
@@ -64,6 +63,9 @@
     <SmxLoader />
   
   {:else}
+
+
+    <h1 class="text-center text-2xl font-extrabold my-4">Numbering System</h1>
 
 
     <img src={lg001} class="rounded mx-auto my-4 w-full max-w-7xl shadow-sm shadow-primary-customLime" alt="001"/>

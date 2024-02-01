@@ -41,9 +41,9 @@
   
   <Tabs style="full" defaultClass="flex rounded-lg divide-x rtl:divide-x-reverse divide-gray-200 shadow dark:divide-gray-700 mt-20">
     <TabItem class="w-full" open>
-        <span slot="title">Free resources</span>
+        <span slot="title">Resources</span>
         <p class="text-sm text-gray-500 dark:text-gray-400">
-        <b>Free resources:</b>
+        <b>Resources:</b>
 
         Cybersecurity involves protecting computer systems, networks, and data from unauthorized access, attacks, and damage.
         Free resources in cybersecurity refer to tools, materials, and information that are available at no cost to help individuals or organizations enhance their digital security and defend against cyber threats. 
@@ -63,9 +63,9 @@
 
 
     <TabItem class="w-full">
-      <span slot="title">courses</span>
+      <span slot="title">Courses</span>
       <p class="text-sm text-gray-500 dark:text-gray-400">
-        <b>courses:</b>
+        <b>Courses:</b>
         Coming soon . . .
       </p>
     </TabItem>
