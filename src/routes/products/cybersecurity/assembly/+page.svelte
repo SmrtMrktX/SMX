@@ -53,6 +53,11 @@
         <Button href="/products/cybersecurity/assembly/02DataFormats" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
       </TimelineItem>
 
+      <TimelineItem title="03 Computer System">
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">A computer system's primary functions include input, processing, storage, output, and communication. Input devices collect data, the CPU processes it, and the results are stored in memory or on storage devices.</p>
+        <Button href="/products/cybersecurity/assembly/03ComputerSystem" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
+      </TimelineItem>
+
     </Timeline>
   
   
