@@ -58,6 +58,12 @@
         <Button href="/products/cybersecurity/assembly/03ComputerSystem" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
       </TimelineItem>
 
+      
+      <TimelineItem title="04 Memory System">
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">"memory system" refers to the organization and management of memory in a computer. Memory is a crucial component in a computer system where data and instructions are stored for processing.</p>
+        <Button href="/products/cybersecurity/assembly/04MemorySystem" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
+      </TimelineItem>
+
     </Timeline>
   
   
