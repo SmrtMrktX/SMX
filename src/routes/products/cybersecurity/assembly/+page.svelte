@@ -64,6 +64,12 @@
         <Button href="/products/cybersecurity/assembly/04MemorySystem" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
       </TimelineItem>
 
+
+      <TimelineItem title="05 Microprocessor Architecture">
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">"Microprocessor architecture refers to the set of rules and conventions governing the design and functioning of a microprocessor, which is a central processing unit (CPU) contained on a single integrated circuit (IC).</p>
+        <Button href="/products/cybersecurity/assembly/05MicroprocessorArchitecture" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
+      </TimelineItem>
+
     </Timeline>
   
   
