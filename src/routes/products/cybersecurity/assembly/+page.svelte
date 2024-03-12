@@ -66,8 +66,13 @@
 
 
       <TimelineItem title="05 Microprocessor Architecture">
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">"Microprocessor architecture refers to the set of rules and conventions governing the design and functioning of a microprocessor, which is a central processing unit (CPU) contained on a single integrated circuit (IC).</p>
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">"Microprocessor architecture" refers to the set of rules and conventions governing the design and functioning of a microprocessor, which is a central processing unit (CPU) contained on a single integrated circuit (IC).</p>
         <Button href="/products/cybersecurity/assembly/05MicroprocessorArchitecture" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
+      </TimelineItem>
+
+      <TimelineItem title="06 Real Mode Operation">
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">"Real mode" is an operation mode of x86 architecture processors, where the processor behaves as a 16-bit processor. In real mode, the processor uses a segmented memory model, where memory addresses are formed by combining a 16-bit segment value and a 16-bit offset value.</p>
+        <Button href="/products/cybersecurity/assembly/06RealModeOperation" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
       </TimelineItem>
 
     </Timeline>
