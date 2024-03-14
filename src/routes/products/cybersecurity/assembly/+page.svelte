@@ -40,6 +40,8 @@
   
   {:else}
 
+    <div class="mt-10">
+    </div>
 
     <Timeline class="m-auto">
 
@@ -74,6 +76,13 @@
         <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">"Real mode" is an operation mode of x86 architecture processors, where the processor behaves as a 16-bit processor. In real mode, the processor uses a segmented memory model, where memory addresses are formed by combining a 16-bit segment value and a 16-bit offset value.</p>
         <Button href="/products/cybersecurity/assembly/06RealModeOperation" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
       </TimelineItem>
+
+      <TimelineItem title="07 Data Addressing Modes">
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">"addressing modes define how the processor calculates the memory address of operands for instructions. </p>
+        <Button href="/products/cybersecurity/assembly/07DataAddressingModes" color="alternative">Learn more<ArrowRightOutline class="ms-2 w-3 h-3" /></Button>
+      </TimelineItem>
+
+      
 
     </Timeline>
   

@@ -41,6 +41,9 @@
 
 {:else}
 
+  <div class="mt-10">
+  </div>
+
   <img src={webappslg} class="rounded m-auto w-full max-w-3xl shadow-sm shadow-primary-customLime" alt="web apps products"/>
 
   <GradientButton href="/products/webApps" color="purpleToBlue" class="mx-auto my-10 font-bold">Web Applications</GradientButton>
