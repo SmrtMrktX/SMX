@@ -1,12 +1,10 @@
 # SMX
 
-```bash
-Awesome Opensource Web Application.
-```
+## SMRT MRKT X - OFFICIAL WEBSITE ©
 
-## Developing
+### We create amazing open-source projects that empower developers and foster collaboration.
 
-
+#### Developing
 
 ```bash
 git clone https://github.com/SmrtMrktX/SMX.git
@@ -16,8 +14,7 @@ npm run dev
 # follow the localhost link
 ```
 
-
-### Contribution
+#### Contribution
 
 ```bash
 Fork repo - Create your own branch - Make the app better - Commit it - Pull request.
