@@ -1,3 +1,7 @@
+<p align="center">
+<img src="src/lib/img/smxloader.png" alt="SMX Logo" width="25%">
+</p>
+
 # SMX
 
 ### SMRT MRKT X - OFFICIAL WEBSITE ©
