@@ -3,9 +3,14 @@
 	import smxLg from '$lib/img/smxlg.png';
 	import '../app.css';
 	let { children } = $props();
+	let mynavlink = 'text-sm';
 </script>
 
-<div class="navbar bg-base-100 sticky top-0 z-50 shadow-sm">
+<div
+	style="	font-family: 'Russo One', sans-serif;
+"
+	class="navbar bg-base-100 sticky top-0 z-50 shadow-sm"
+>
 	<div class="navbar-start">
 		<div class="dropdown">
 			<div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -15,15 +20,15 @@
 				tabindex="0"
 				class="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow"
 			>
-				<li><a href="/">Homepage</a></li>
-				<li><a>Portfolio</a></li>
-				<li><a>About</a></li>
+				<li><a class={mynavlink} href="/">Homepage</a></li>
+				<li><a class={mynavlink}>Products</a></li>
+				<li><a class={mynavlink}>About</a></li>
 				<li class="text-center font-mono text-xs">version 0.0.4</li>
 			</ul>
 		</div>
 	</div>
 	<div class="navbar-center">
-		<a href="/" class="btn btn-ghost text-2xl tracking-wider">SMRT MRKT X </a>
+		<a href="/" class="btn btn-ghost text-2xl tracking-widest md:text-4xl">SMRT MRKT X </a>
 	</div>
 	<div class="navbar-end">
 		<input type="checkbox" value="dark" class="toggle theme-controller" />
@@ -52,6 +57,7 @@
 		<a class="link link-hover">Terms of use</a>
 		<a class="link link-hover">Privacy policy</a>
 		<a class="link link-hover">Cookie policy</a>
+		<a class="link link-hover">LICENSE</a>
 	</nav>
 </footer>
 <footer class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
