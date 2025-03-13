@@ -4,7 +4,7 @@
 
 # SMX
 
-### SMRT MRKT X - OFFICIAL WEBSITE ©
+### SMRT MRKT X © OFFICIAL WEBSITE
 
 ### We create amazing open-source projects that empower developers and foster collaboration.
 
