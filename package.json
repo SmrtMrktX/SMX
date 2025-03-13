@@ -57,6 +57,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@fontsource/russo-one": "^5.2.5",
 		"daisyui": "^5.0.2"
 	}
 }

@@ -3,3 +3,8 @@
 @plugin "daisyui" {
 	themes: all;
 }
+
+@import '@fontsource/russo-one';
+body {
+	font-family: 'Russo One', sans-serif;
+}
