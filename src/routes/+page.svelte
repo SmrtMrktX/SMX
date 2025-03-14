@@ -1,6 +1,7 @@
 <script>
 	import Hero from '$lib/components/homeComponents/Hero.svelte';
 	import Poweredby from '$lib/components/homeComponents/Poweredby.svelte';
+	import HowWeWork from '$lib/components/homeComponents/HowWeWork.svelte';
 </script>
 
 <svelte:head>
@@ -12,5 +13,7 @@
 </svelte:head>
 
 <Hero />
+
+<HowWeWork />
 
 <Poweredby />
