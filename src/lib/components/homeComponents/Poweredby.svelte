@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="py-14">
+<div class="border-base-300 mt-10 border-t-2 py-14">
 	<div class="mx-auto max-w-screen-xl px-4 md:px-8">
 		<h3 style="	font-family: 'Russo One', sans-serif;" class="text-center text-sm tracking-widest">
 			POWERED BY TEAMS FROM AROUND THE WORLD
