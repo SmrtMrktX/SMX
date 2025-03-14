@@ -27,7 +27,7 @@
 					href="https://github.com/SmrtMrktX/"
 					target="_blank"
 					class="ml-4 inline-flex rounded border-0 bg-gray-200 px-6 py-2 text-lg text-gray-900 hover:bg-black hover:text-white focus:outline-none"
-					>Github</a
+					>GitHub</a
 				>
 			</div>
 		</div>
