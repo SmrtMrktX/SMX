@@ -10,24 +10,25 @@
 			class="md:w-1.5/2 mt-5 mb-16 flex flex-col items-center text-center md:mt-0 md:mb-0 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24"
 		>
 			<h1
-				class="mb-3 text-2xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-normal"
+				class="mb-6 text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-normal"
 			>
 				Building digital <br />products &amp; brands.
 			</h1>
-			<p class="mb-8 pr-2 pl-2 leading-relaxed md:pl-0">
+			<p class="mb-10 pr-2 pl-2 leading-relaxed md:pl-0">
 				We create amazing open-source projects that empower developers and foster collaboration.
 			</p>
 			<div class="flex justify-center font-semibold">
 				<a
 					href="#"
-					class="inline-flex rounded border-0 bg-emerald-600 from-[#4F46E5] to-[#E114E5] px-6 py-2 text-lg text-white hover:bg-gradient-to-r hover:bg-clip-text hover:text-transparent focus:outline-none"
+					class="inline-flex rounded border-0 bg-gradient-to-l from-[#1a2980] to-[#26d0ce] px-6 py-2 text-lg text-white hover:bg-gradient-to-r focus:outline-none"
 					>Start Exploring
 				</a>
 				<a
 					href="https://github.com/SmrtMrktX/"
 					target="_blank"
-					class="ml-4 inline-flex rounded border-0 bg-gray-200 px-6 py-2 text-lg text-gray-900 hover:bg-black hover:text-white focus:outline-none"
-					>GitHub</a
+					class="bg-base-content text-base-100 hover:bg-base-100 hover:text-base-content ml-4 inline-flex rounded border-0 px-6 py-2 text-lg hover:scale-125
+
+ focus:outline-none">GitHub</a
 				>
 			</div>
 		</div>
