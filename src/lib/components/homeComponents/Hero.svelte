@@ -33,7 +33,11 @@
 			</div>
 		</div>
 		<div class="mb-5 w-3/6 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg">
-			<img class="rounded object-cover object-center" alt="hero" src={rocketLogo} />
+			<img
+				class="animate-[bounce_3s_ease-in-out_infinite] rounded object-cover object-center"
+				alt="hero"
+				src={rocketLogo}
+			/>
 		</div>
 	</div>
 </section>
