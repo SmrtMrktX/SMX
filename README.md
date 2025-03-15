@@ -1,10 +1,18 @@
-# SMX
 
-```bash
-Awesome Opensource Web Application.
-```
 
-## Developing
+<h2 align="center">SMX</h2>
+
+<h3 align="center">SMRT MRKT X © OFFICIAL WEBSITE</h3>
+
+<h5 align="center">version 0.0.3</h5>
+
+
+
+
+
+
+
+### Developing
 
 
 
