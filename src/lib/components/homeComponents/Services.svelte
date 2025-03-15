@@ -58,12 +58,12 @@
 					class="bg-base-100 h-full rounded-xl p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-lg"
 				>
 					<div class="p-4 pt-6">
-						<i class="fa-solid fa-paragraph text-[40px]"></i>
+						<i class="fa-solid fa-fingerprint text-[40px]"></i>
 					</div>
 					<div class="p-4">
-						<h5 class="mb-4 text-lg font-semibold">Content Marketing</h5>
+						<h5 class="mb-4 text-lg font-semibold">Branding & Graphic Design</h5>
 						<p class="mb-6 opacity-70">
-							Blog writing, video marketing, and email campaigns to engage and convert audiences.
+							Logo design, branding strategy, and visual identity development for businesses.
 						</p>
 						<a href="#" class="text-sm font-semibold duration-300 hover:text-blue-600"
 							>LEARN MORE <i class="fas fa-long-arrow-alt-right ml-1"></i></a
@@ -114,17 +114,19 @@
 			</div>
 			<!-- card end -->
 			<!-- card start -->
+
 			<div class="col-span-12 md:col-span-6 xl:col-span-4">
 				<div
 					class="bg-base-100 h-full rounded-xl p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-lg"
 				>
 					<div class="p-4 pt-6">
-						<i class="fas fa-random text-[40px]"></i>
+						<i class="fa-solid fa-microscope text-[40px]"></i>
 					</div>
 					<div class="p-4">
-						<h5 class="mb-4 text-lg font-semibold">Branding & Graphic Design</h5>
+						<h5 class="mb-4 text-lg font-semibold">Software Testing</h5>
 						<p class="mb-6 opacity-70">
-							Logo design, branding strategy, and visual identity development for businesses.
+							Ensuring the highest quality and reliability of software through comprehensive testing
+							and validation.
 						</p>
 						<a href="#" class="text-sm font-semibold duration-300 hover:text-blue-600"
 							>LEARN MORE <i class="fas fa-long-arrow-alt-right ml-1"></i></a
