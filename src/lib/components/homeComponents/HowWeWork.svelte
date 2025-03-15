@@ -12,7 +12,7 @@
 			<!-- card start -->
 			<div class="col-span-4 sm:col-span-2 lg:col-span-1">
 				<div
-					class="flex h-full flex-col items-center justify-center rounded-xl px-6 pb-10 text-center shadow-xl"
+					class="bg-base-100 flex h-full flex-col items-center justify-center rounded-xl px-6 pb-10 text-center shadow-xl"
 				>
 					<div
 						class="bg-opacity-90 flex h-20 w-20 -translate-y-10 items-center justify-center rounded-full bg-blue-600"
@@ -29,7 +29,7 @@
 			<!-- card start -->
 			<div class="col-span-4 sm:col-span-2 lg:col-span-1">
 				<div
-					class="flex h-full flex-col items-center justify-center rounded-xl px-6 pb-10 text-center shadow-xl"
+					class="bg-base-100 flex h-full flex-col items-center justify-center rounded-xl px-6 pb-10 text-center shadow-xl"
 				>
 					<div
 						class="bg-opacity-90 flex h-20 w-20 -translate-y-10 items-center justify-center rounded-full bg-blue-600"
@@ -46,7 +46,7 @@
 			<!-- card start -->
 			<div class="col-span-4 sm:col-span-2 lg:col-span-1">
 				<div
-					class="flex h-full flex-col items-center justify-center rounded-xl px-6 pb-10 text-center shadow-xl"
+					class="bg-base-100 flex h-full flex-col items-center justify-center rounded-xl px-6 pb-10 text-center shadow-xl"
 				>
 					<div
 						class="bg-opacity-90 flex h-20 w-20 -translate-y-10 items-center justify-center rounded-full bg-blue-600"

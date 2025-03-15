@@ -1,0 +1,12 @@
+<div class="hero bg-base-200 min-h-screen">
+	<div class="hero-content text-center">
+		<div class="max-w-md">
+			<h1 class="text-5xl font-bold">About</h1>
+			<a href="/">
+				<button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl my-10"
+					><i class="fas fa-long-arrow-alt-left mr-2"></i>Back
+				</button>
+			</a>
+		</div>
+	</div>
+</div>

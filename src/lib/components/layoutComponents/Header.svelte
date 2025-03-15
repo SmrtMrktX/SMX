@@ -18,8 +18,8 @@
 				class="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow"
 			>
 				<li><a class={mynavlink} href="/">Homepage</a></li>
-				<li><a class={mynavlink}>Products</a></li>
-				<li><a class={mynavlink}>About</a></li>
+				<li><a class={mynavlink} href="/products">Products</a></li>
+				<li><a class={mynavlink} href="/about">About</a></li>
 				<li class="text-center font-mono text-xs">version 0.0.4</li>
 			</ul>
 		</div>

@@ -26,9 +26,9 @@
 				<a
 					href="https://github.com/SmrtMrktX/"
 					target="_blank"
-					class="bg-base-content text-base-100 hover:bg-base-100 hover:text-base-content ml-4 inline-flex rounded border-0 px-6 py-2 text-lg hover:scale-125
+					class="bg-base-content text-base-100 hover:bg-base-100 hover:text-base-content ml-4 inline-flex rounded border-0 px-6 py-2 text-lg duration-700
 
- focus:outline-none">GitHub</a
+ hover:scale-125 focus:outline-none">GitHub</a
 				>
 			</div>
 		</div>
