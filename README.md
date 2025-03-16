@@ -4,7 +4,7 @@
 
 <h3 align="center">SMRT MRKT X © OFFICIAL WEBSITE</h3>
 
-<h5 align="center">version 0.0.3</h5>
+<h5 align="center"> <a href="https://v0.smx.tn" target="_blank"> version 0.0.3 </a> </h5>
 
 
 
