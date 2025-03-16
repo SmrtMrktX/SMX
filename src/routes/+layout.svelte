@@ -6,6 +6,15 @@
 	import Footer from '$lib/components/layoutComponents/Footer.svelte';
 </script>
 
+<svelte:head>
+	<script src="https://kit.fontawesome.com/bb271890d7.js" crossorigin="anonymous"></script>
+	<script
+		async
+		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5113481215151349"
+		crossorigin="anonymous"
+	></script>
+</svelte:head>
+
 <Header />
 
 {@render children()}
