@@ -1,6 +1,6 @@
 {
 	"name": "smx",
-	"version": "0.0.4",
+	"version": "1.0.0",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",

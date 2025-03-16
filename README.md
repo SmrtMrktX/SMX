@@ -1,10 +1,10 @@
 <p align="center">
-<img src="src/lib/img/smxloader.png" alt="SMX Logo" width="25%">
+<img src="src/lib/img/smxloader.png" alt="SMX Logo" width="20%">
 </p>
 
-# SMX
+<h1 align="center">SMX <br> SMRT MRKT X © OFFICIAL WEBSITE</h1>
 
-### SMRT MRKT X © OFFICIAL WEBSITE
+<h5 align="center"> version 1 beta</h5>
 
 ### We create amazing open-source projects that empower developers and foster collaboration.
 
