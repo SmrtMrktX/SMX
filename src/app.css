@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@plugin "daisyui" {
+	themes: all;
+}
+
+@import '@fontsource/russo-one';
+footer {
+	font-family: 'Russo One', sans-serif;
+}
