@@ -1,5 +1,5 @@
 <script>
-	import deskofficeLogo from '$lib/img/deskOffice.jpg';
+	import deskofficeLogo from '$lib/img/deskOffice.webp';
 </script>
 
 <section class="hero py-14 md:py-24">
