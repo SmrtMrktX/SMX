@@ -4,7 +4,7 @@
 
 <h1 align="center">SMX <br> SMRT MRKT X © OFFICIAL WEBSITE</h1>
 
-<h5 align="center"> version 1 beta</h5>
+<h5 align="center"> version 1 </h5>
 
 ### We create amazing open-source projects that empower developers and foster collaboration.
 
