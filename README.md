@@ -1,5 +1,5 @@
 <p align="center">
-<img src="src/lib/img/smxloader.png" alt="SMX Logo" width="20%">
+<img src="src/lib/img/logos/faviconB.png" alt="SMX Logo" width="50%">
 </p>
 
 <h1 align="center">SMX <br> SMRT MRKT X © OFFICIAL WEBSITE</h1>

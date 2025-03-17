@@ -1,5 +1,5 @@
 <script lang="ts">
-	import smxLogo from '$lib/img/smxloader.png';
+	import smxLogo from '$lib/img/logos/faviconB.png';
 	let mynavlink = 'text-sm';
 </script>
 
@@ -11,7 +11,7 @@
 	<div class="navbar-start">
 		<div class="dropdown">
 			<div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-				<img class=" rounded-md border-2 border-white" src={smxLogo} alt="smx logo" />
+				<img class=" rounded-md" src={smxLogo} alt="smx logo" />
 			</div>
 			<ul
 				tabindex="0"
@@ -34,6 +34,6 @@
 				<li><a href="https://v0.smx.tn" target="_blank">V.0</a></li>
 			</ul>
 		</div>
-		<input type="checkbox" value="dark" class="toggle theme-controller" />
+		<input type="checkbox" value="wireframe" class="toggle theme-controller" />
 	</div>
 </div>
