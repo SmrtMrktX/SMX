@@ -27,7 +27,7 @@
 			<div tabindex="0" role="button" class="btn rounded-sm font-extrabold text-green-500">V.1</div>
 			<ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-1 p-2 shadow-sm">
 				<li><a href="/">V.1</a></li>
-				<li><a href="https://v0.smx.tn" target="_blank">V.0</a></li>
+				<li><a href="https://v0.smx.tn">V.0</a></li>
 			</ul>
 		</div>
 		<input type="checkbox" value="wireframe" class="toggle theme-controller" />
