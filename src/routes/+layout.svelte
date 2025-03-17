@@ -1,26 +1,12 @@
-<head>
-	<script
-		async
-		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5113481215151349"
-		crossorigin="anonymous"
-	></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-</head>
-
-
-
-
-
-
-<script>
+<script lang="ts">
 
   import "../app.pcss";
   import smxlg from "$lib/img/smxlg.png"
   import { DarkMode } from 'flowbite-svelte';
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
   import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, Badge } from 'flowbite-svelte';
+  import { Button, Dropdown, DropdownItem } from 'flowbite-svelte';
+  import { ChevronDownOutline } from 'flowbite-svelte-icons';
 
   // Check screen size
   function checkScreenSize() {
@@ -29,8 +15,27 @@
 
 </script>
 
-  
+<svelte:head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap">
 
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5113481215151349"
+    crossorigin="anonymous"
+  ></script>
+</svelte:head>
+
+
+  
+<div class="fixed z-50 top-24 left-8">
+  <Button> V.0 <ChevronDownOutline class="w-6 h-6 ms-2 text-white dark:text-white" /></Button>
+<Dropdown>
+  <DropdownItem href="https://smx.tn">V.1</DropdownItem>
+  <DropdownItem href="/">V.0</DropdownItem>
+</Dropdown>
+</div>
 
 
 
