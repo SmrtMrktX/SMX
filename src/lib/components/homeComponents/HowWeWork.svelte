@@ -1,4 +1,4 @@
-<section class="ezy__howitworks6 light bg-base-200 py-14 md:py-24">
+<section class="bg-base-200 py-14 md:py-24">
 	<div class="container mx-auto px-4">
 		<div class="mx-auto flex max-w-xl flex-col items-center justify-center text-center">
 			<h2 class="mb-4 text-3xl font-bold md:text-[45px]">How We Work</h2>

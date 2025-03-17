@@ -1,5 +1,5 @@
 <script>
-	import smxLg from '$lib/img/logos/favicon.png';
+	import smxLg from '$lib/img/logo/smxlogo.png';
 </script>
 
 <footer class="footer sm:footer-horizontal bg-base-200 text-base-content z-10 p-10">

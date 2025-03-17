@@ -1,5 +1,5 @@
 <script>
-	import rocketLogo from '$lib/img/rocket.svg';
+	import rocketLogo from '$lib/img/home/rocket.svg';
 </script>
 
 <section class="hero min-h-screen">
