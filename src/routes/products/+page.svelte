@@ -1,4 +1,4 @@
-<div class="hero bg-base-200 min-h-screen">
+<div class="hero bg-base-300 min-h-screen">
 	<div class="hero-content text-center">
 		<div class="max-w-md">
 			<h1 class="text-5xl font-bold">Products</h1>
