@@ -22,7 +22,7 @@
 					<a
 						href="https://sveltx.vercel.app/"
 						target="_blank"
-						class="focus:shadow-outline-blue flex w-full items-center justify-center rounded-md border border-transparent bg-blue-500 px-8 py-3 text-base leading-6 font-medium text-white transition duration-150 ease-in-out hover:bg-blue-600 focus:outline-none md:px-10 md:py-4 md:text-lg"
+						class="focus:shadow-outline-blue flex w-full items-center justify-center rounded-md border border-transparent bg-red-600 px-8 py-3 text-base leading-6 font-medium text-white transition duration-150 ease-in-out hover:bg-green-700 focus:outline-none md:px-10 md:py-4 md:text-lg"
 					>
 						Live
 					</a>
@@ -31,7 +31,7 @@
 					<a
 						href="https://github.com/SmrtMrktX/Sveltx"
 						target="_blank"
-						class="focus:shadow-outline-blue flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base leading-6 font-medium text-blue-500 transition duration-150 ease-in-out hover:text-blue-600 focus:outline-none md:px-10 md:py-4 md:text-lg"
+						class="focus:shadow-outline-blue flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base leading-6 font-medium text-red-600 transition duration-150 ease-in-out hover:text-blue-700 focus:outline-none md:px-10 md:py-4 md:text-lg"
 					>
 						Contribute
 					</a>

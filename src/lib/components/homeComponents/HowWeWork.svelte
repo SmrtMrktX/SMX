@@ -66,9 +66,9 @@
 					class="flex h-full flex-col items-center justify-center rounded-xl bg-blue-600 px-6 pb-10 text-center shadow-xl"
 				>
 					<div
-						class=" flex h-20 w-20 -translate-y-10 items-center justify-center rounded-full bg-white"
+						class=" flex h-20 w-20 -translate-y-10 items-center justify-center rounded-full bg-green-500"
 					>
-						<h1 class="text-[40px] font-medium text-black">4</h1>
+						<h1 class="text-[40px] font-medium text-white">4</h1>
 					</div>
 					<h2 class="grow text-2xl font-medium text-white">Delivery</h2>
 					<p class="grow leading-relaxed text-white opacity-75">
