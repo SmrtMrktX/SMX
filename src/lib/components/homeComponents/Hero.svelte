@@ -19,8 +19,8 @@
 			</p>
 			<div class="flex justify-center font-semibold">
 				<a
-					href="#"
-					class="inline-flex rounded border-0 bg-gradient-to-l from-[#1a2980] to-[#26d0ce] px-6 py-2 text-lg text-white hover:bg-gradient-to-r focus:outline-none"
+					href="/products"
+					class="inline-flex rounded border-0 bg-gradient-to-l from-[#1a2980] to-[#00ff00] px-6 py-2 text-lg text-white hover:bg-gradient-to-r focus:outline-none"
 					>Start Exploring
 				</a>
 				<a
