@@ -29,7 +29,7 @@
 
 
   
-<div class="fixed z-50 top-2 right-24 md:right-0 md:top-3">
+<div class="fixed z-50 top-2 right-16 md:right-0 md:top-3">
   <Button class="bg-black  dark:bg-white dark:text-black p-2 m-2"> V.0 <ChevronDownOutline class="w-2 h-2 ms-2 text-green-500" /></Button>
 <Dropdown>
   <DropdownItem href="https://smx.tn">V.1</DropdownItem>
