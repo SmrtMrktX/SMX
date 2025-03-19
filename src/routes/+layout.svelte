@@ -29,8 +29,8 @@
 
 
   
-<div class="fixed z-50 top-36 left-8">
-  <Button> V.0 <ChevronDownOutline class="w-6 h-6 ms-2 text-white dark:text-white" /></Button>
+<div class="fixed z-50 top-2 right-24 md:right-0 md:top-3">
+  <Button class="bg-black  dark:bg-white dark:text-black p-2 m-2"> V.0 <ChevronDownOutline class="w-2 h-2 ms-2 text-green-500" /></Button>
 <Dropdown>
   <DropdownItem href="https://smx.tn">V.1</DropdownItem>
   <DropdownItem href="/">V.0</DropdownItem>
@@ -39,10 +39,10 @@
 
 
 
-<Navbar let:hidden let:toggle rounded color="form" class="z-50 fixed top-0 pt-3 md:pt-2 backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent shadow-md dark:shadow-black">
+<Navbar let:hidden let:toggle rounded color="form" class="z-40 fixed top-0 pt-3 md:pt-2 backdrop-blur-sm bg-black bg-transparent dark:backdrop-blur-sm	 dark:bg-transparent shadow-md dark:shadow-black">
   <NavBrand href="/">
     <img src={smxlg} class="rounded-md mr-4 ml-2 md:ml-1 md:mr-1 lg:mx-10 h-9 md:h-12 lg:h-15 border-4 border-black  dark:invert transition duration-500 ease-in-out hover:scale-110 hover:rotate-180" alt="SMX Logo"/>
-    <span class="custom-title self-center whitespace-nowrap ml-2 md:ml-0 pt-1 lg:pl-6 text-3xl md:text-2xl lg:text-3xl font-bold tracking-widest md:tracking-normal lg:tracking-widest">
+    <span class="custom-title self-center whitespace-nowrap ml-2 md:ml-0 pt-1 lg:pl-6 text-2xl md:text-2xl lg:text-3xl font-bold tracking-widest md:tracking-normal lg:tracking-widest">
       SMRT MRKT <span style="color:lime;">X</span></span>
   </NavBrand>
   <NavHamburger on:click={toggle} class=""/>

@@ -21,15 +21,14 @@
 <div class=" spec  flex flex-col justify-center items-center text-center mt-24">
 
   <Blockquote alignment="center" size="lg">
-    <QuoteSolid class="w-8 h-8 text-gray-900 dark:text-gray-100" />
-      <span style="font-family: 'Russo One', sans-serif;" 
-      class="font-medium tracking-wider text-gray-900 dark:text-gray-100  leading-relaxed md:leading-loose ">
-        Awesome opensource
-        <a style="font-family: 'Russo One', sans-serif;" href="https://github.com/SmrtMrktX/SMX" target="_blank" 
-        class="text-black dark:text-white rounded hover:font-extrabold ">
-        ©</a>
-      </span>
+    <QuoteSolid class="w-8 h-8 text-gray-900 dark:text-gray-100 " />
+      <a href="https://github.com/SmrtMrktX/SMX" target="_blank" style="font-family: 'Russo One', sans-serif;" 
+      class="hover:text-black dark:hover:text-white font-medium tracking-wider text-gray-900 dark:text-gray-100  leading-relaxed md:leading-loose ">
+        Awesome opensource ©
+      </a>
   </Blockquote>
+
+
 
   <h1 class="backdrop-blur text-black dark:text-white py-2 px-4 rounded-full shadow-2xl dark:shadow-inner dark:shadow-blue-800 welcome font-extrabold leading-10  text-2xl md:text-3xl lg:text-4xl m-auto">
     Welcome to our 
