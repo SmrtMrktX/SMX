@@ -1,4 +1,6 @@
-
+<p align="center">
+<img src="static/favicon.png" width="20%" alt="SMX Logo" width="25%">
+</p>
 
 <h2 align="center">SMX</h2>
 
@@ -6,15 +8,7 @@
 
 <h5 align="center"> <a href="https://v0.smx.tn" target="_blank"> version 0.0.3 </a> </h5>
 
-
-
-
-
-
-
 ### Developing
-
-
 
 ```bash
 git clone https://github.com/SmrtMrktX/SMX.git
@@ -23,7 +17,6 @@ npm run dev
 
 # follow the localhost link
 ```
-
 
 ### Contribution
 
