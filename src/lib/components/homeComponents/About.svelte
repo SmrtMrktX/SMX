@@ -1,5 +1,5 @@
 <script>
-	import deskofficeLogo from '$lib/img/home/deskOffice.webp';
+	import deskofficeLogo from '$lib/img/home/deskOffice2.webp';
 </script>
 
 <section class="hero py-14 md:py-24">
@@ -52,7 +52,12 @@
 			</div>
 			<div class="col-span-12 lg:col-span-6">
 				<div class="mt-12 lg:mt-0">
-					<img src={deskofficeLogo} alt="desk office" class="h-auto max-w-full rounded-2xl" />
+					<img
+						loading="lazy"
+						src={deskofficeLogo}
+						alt="desk office"
+						class="h-auto max-w-full rounded-2xl"
+					/>
 				</div>
 			</div>
 		</div>
