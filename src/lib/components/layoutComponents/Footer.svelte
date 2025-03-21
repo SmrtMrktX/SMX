@@ -22,7 +22,7 @@
 		<a class="link link-hover">Terms of use</a>
 		<a class="link link-hover">Privacy policy</a>
 		<a class="link link-hover">Cookie policy</a>
-		<a class="link link-hover">LICENSE</a>
+		<a href="/license" class="link link-hover">LICENSE</a>
 	</nav>
 </footer>
 <footer class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
