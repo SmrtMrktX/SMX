@@ -53,7 +53,7 @@
 			<div class="col-span-12 lg:col-span-6">
 				<div class="mt-12 lg:mt-0">
 					<img
-						loading="lazy"
+						loading="eager"
 						src={deskofficeLogo}
 						alt="desk office"
 						class="h-auto max-w-full rounded-2xl"
