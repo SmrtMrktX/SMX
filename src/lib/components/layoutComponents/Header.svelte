@@ -21,15 +21,15 @@
 		<a href="/" class="btn btn-ghost text-2xl font-extrabold tracking-tight md:text-4xl"
 			>SMRT MRKT X
 		</a>
-	</div>
-	<div class="navbar-end">
-		<div class="dropdown dropdown-start mr-4 text-sm font-extrabold">
+		<div class="dropdown dropdown-start text-sm font-extrabold">
 			<div tabindex="0" role="button" class="btn rounded-sm font-extrabold text-green-500">V.1</div>
 			<ul class="dropdown-content menu bg-base-100 rounded-box z-1 p-2 shadow-sm">
 				<li><a href="/">V.1</a></li>
 				<li><a href="https://v0.smx.tn">V.0</a></li>
 			</ul>
 		</div>
+	</div>
+	<div class="navbar-end">
 		<input type="checkbox" value="wireframe" class="toggle theme-controller" />
 	</div>
 </div>
