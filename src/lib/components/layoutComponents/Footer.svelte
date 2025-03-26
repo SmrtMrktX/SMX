@@ -27,7 +27,7 @@
 </footer>
 <footer class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
 	<aside class="grid-flow-col items-center">
-		<img class=" w-10 rounded-sm border-2 border-blue-500 bg-white" src={smxLg} alt="smx logo" />
+		<img class=" w-10 rounded-sm border-2 border-black bg-white" src={smxLg} alt="smx logo" />
 		<p>
 			SMRT MRKT X.
 			<br />
