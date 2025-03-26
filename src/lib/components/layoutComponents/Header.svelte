@@ -18,7 +18,7 @@
 		</div>
 	</div>
 	<div class="fixed top-4 left-1/2 w-full -translate-x-1/2 transform text-center">
-		<a href="/" class="btn btn-ghost text-2xl font-extrabold tracking-widest md:text-4xl"
+		<a href="/" class="btn btn-ghost text-2xl font-extrabold tracking-tight md:text-4xl"
 			>SMRT MRKT X
 		</a>
 	</div>
