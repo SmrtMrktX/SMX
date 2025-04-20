@@ -4,7 +4,7 @@
 
 <section class="hero min-h-screen">
 	<div class="container mx-auto max-w-xl space-y-12 p-6 lg:max-w-7xl lg:px-8">
-		<div>
+		<div class="mt-8">
 			<h2 class="text-center text-3xl font-bold sm:text-5xl">SMX - Desktop</h2>
 			<p class="mx-auto mt-4 max-w-3xl text-center text-xl">
 				Explore the latest features that enhance your learning experience and make it even more

@@ -16,7 +16,7 @@
 </svelte:head>
 
 <Header />
-
+<div class="mt-10"></div>
 {@render children()}
 
 <Footer />
