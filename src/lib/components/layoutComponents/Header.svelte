@@ -1,6 +1,6 @@
 <script lang="ts">
 	import smxLogo from '$lib/img/logo/smxlogo.png';
-	let mynavlink = 'text-sm';
+	let mynavlink = 'text-sm ml-4';
 </script>
 
 	<div data-theme="black" class="navbar bg-base-100 fixed top-0 z-50 shadow-sm font-extrabold jus">
