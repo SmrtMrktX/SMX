@@ -8,9 +8,6 @@
 
 ### We create amazing open-source projects that empower developers and foster collaboration.
 
-```bash
-~$ deploy
-```
 
 #### Developing
 
